@@ -6,13 +6,17 @@ type ClubInfo = {
     longdesc: string;
     department: string;
     field: string;
-    link: string[];
+    link: {
+        label: string;
+        url: string;
+    } [];
     joinlink: string;
     awards: {
         year: string;
         content: string[];
     } [];
     gallery: {
+        thumbnail?: string;
         url: string;
         isVideo: boolean;
     }[];
@@ -30,10 +34,16 @@ const clubInfo: ClubInfo[] = [
         "뛰어난 능력은 타고난 것 뿐 아니라 만들어가는 것이라 믿으며\n" +
         "함께하고자 하는 사람들과 진정한 목표를 탐색하고 과감하게 달려갑니다.\n",
         department: "콘텐츠디자인과",
-        field: "만화·일러스트레이션",
+        field: "디자인 연구",
         link: [
-            "https://www.facebook.com/TATEDesignResearchClub",
-            "https://www.instagram.com/tate__official/"
+            {
+                label: "Facebook",
+                url: "https://www.facebook.com/TATEDesignResearchClub",
+            },
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/tate__official/",
+            },
         ],
         joinlink: "https://sunrinmir.github.io/",
         awards: [
@@ -61,6 +71,11 @@ const clubInfo: ClubInfo[] = [
             },
         ],
         gallery: [
+            {
+                thumbnail: "https://i.ytimg.com/vi/KsOK53bQsHU/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/KsOK53bQsHU?si=I6mh1FK9wFA8Gh5I",
+                isVideo: true,
+            },
             {
                 url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTQ3/MDAxNzEwMDY3OTQwNjM0.6TR8y4kzO0K_FX-ihdxsh1Mcb9gHwavO8IoWNF5qBQIg.U0WiOx9RyXaFc2nxPyzFeHQEhvnm7rmasBOEPx-tqh4g.PNG/GENESIS_%ED%8F%AC%EC%8A%A4%ED%84%B0_01.png",
                 isVideo: false,
@@ -184,22 +199,72 @@ const clubInfo: ClubInfo[] = [
         department: "콘텐츠디자인과",
         field: "만화·일러스트레이션",
         link: [
-            "https://www.facebook.com/people/%EB%AF%B8%EB%A5%B4-MIR/100066338873711/?mibextid=ZbWKwL",
-            "https://www.instagram.com/mir.__.official",
-            "https://sunrinmir.github.io/"
+            {
+                label: "Facebook",
+                url: "https://www.facebook.com/people/%EB%AF%B8%EB%A5%B4-MIR/100066338873711/?mibextid=ZbWKwL",
+            },
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/mir.__.official",
+            },
+            {
+                label: "웹사이트",
+                url: "https://sunrinmir.github.io/",
+            }            
         ],
         joinlink: "https://sunrinmir.github.io/",
         awards: [
             {
+                year: "2022",
+                content: [
+                    "선린 교내 그래픽공모전 대상 유호빈",
+                    "대한민국 청소년 디자인 전람회 특선 김한비",
+                ]
+            },{
                 year: "2023",
                 content: [
-                    "선린 교내 캐릭터공모전 은상",
+                    "선린 교내 그래픽공모전 일러스트 부문 동상 윤지연",
+                    "선린 교내 캐릭터공모전 은상 정선재",
+                    "선린 교내 캐릭터공모전 은상 박민성",
+                    "선린 교내 캐릭터공모전 동상 김한비",
+                    "선린 교내 캐릭터공모전 동상 김해윤",
                 ]
             },
         ],
         gallery: [
             {
-                url: "https://postfiles.pstatic.net/MjAyNDAzMDlfMTg3/MDAxNzA5OTkwMzc1NzQ0.dV27uPPi8KoUbPdHqsikIJqj74TRPoQrXyMSGOfh0icg.bhN2Qd3xm4uup337JoFHGR5GS7uZ6xGAtKH58xY6RwUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png?type=w773",
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNTMg/MDAxNzEwMDgxMjQ1MDI1.wjFwefqUc61aB7J2737LpBDNXjfKbBrTRe8CEAqAeXAg.-vje2liexsshY04qmRZ2xQt8OUjpcxAq-AinkbiUkLwg.PNG/%EA%B0%9C%EC%9D%B8%EC%9E%91(%EC%9C%A4%EC%A7%80%EC%97%B0)_(1).png",
+                isVideo: false,
+            },
+			{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjI3/MDAxNzEwMDgxMjQ1NTA4.mufKjrtcL-4W-6MFUERNQ1usKk6lDrfMtqCF-6t5vQIg.8FnrIH8JPSHHj39Z3VeaEw7jNyK4_8UhhpDiFq4_eoIg.PNG/2023%EA%B7%B8%EB%9E%98%ED%94%BD%EA%B3%B5%EB%AA%A8%EC%A0%84_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%B6%80%EB%AC%B8_%EB%8F%99%EC%83%81(%EC%9C%A4%EC%A7%80%EC%97%B0).png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTMx/MDAxNzEwMDgxMjQ0NjE4.xJEJCihmlY2Jr4dmG9I1SP3Z6Lc_l4wgr01YxNCFIicg.tB1x4Q7Eqnqj6VRXA0AZIoP8CMz4hMPpUA437vZsld0g.JPEG/2023%EB%8F%99%EC%95%84%EB%A6%AC%EC%A0%84%EC%8B%9C%ED%9A%8C(%EA%B9%80%ED%95%9C%EB%B9%84).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNDUg/MDAxNzEwMDgxMjQ0NTY5.-TSTNH5HFgcfSOMr-MH1INiTz2-2K9WL3gMV7mtIjpsg.cDlJCc97LdwYJfLgMlI8GH1JJT37SIV8GGMyQLvJWtwg.JPEG/2023%EB%8F%99%EC%95%84%EB%A6%AC%EC%A0%84%EC%8B%9C%ED%9A%8C(%EC%9C%A0%ED%98%B8%EB%B9%88).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTI4/MDAxNzEwMDgxMjQ0NjQ0.4VVQyhsHAbIRlquczrVtHTFLQ8EngIZtiljqzDEHxc8g.qbEfnq-iraQ76_wTW3gZmfK-oIhsmhuovUVShmpSujMg.JPEG/2023%EB%8F%99%EC%95%84%EB%A6%AC%EC%A0%84%EC%8B%9C%ED%9A%8C(%EC%A0%95%EC%84%A0%EC%9E%AC).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjIx/MDAxNzEwMDgxMjQ1MDE1.TsofH4xAZpsYSEIkwye5weNcwu2uu7pxil2M_yTjjSUg.ALFSPrYWE31OJoSPHRAcNS3KwY7NbW8h4EKFweKm0Mkg.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EB%8F%99%EC%83%81(%EA%B9%80%ED%95%9C%EB%B9%84).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjAw/MDAxNzEwMDgxMjQ1ODk0.jH1VE7HkE_G1y0baYIALx3l4bTIXGvEB4dSXNMNKsBYg.7IKKNhsCaMOahWJpc_3mLXPUgysPZQhu4C62Rqnjm_gg.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EB%8F%99%EC%83%81(%EA%B9%80%ED%95%B4%EC%9C%A4).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjk1/MDAxNzEwMDgxMjQ2NDM4.QvpewQnP5Yi6U03idjX5dfcxjRWY1jX5GPjRgvn8XRMg.9K2GW98cBQrR23h5yOwqTU-fPQ5APaShxHqoOxO3uQQg.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EC%9D%80%EC%83%81(%EB%B0%95%EB%AF%BC%EC%84%B1).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjE4/MDAxNzEwMDgxMjQ3Mjg0.KAHQf_-RtmpKEZD-Ht5753eERuCuT2eX18MHLYjkZyEg._9J5NugPJYQQl9USsd4M1C7z0_QOfsUBaYjkB13y4I0g.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EC%9D%80%EC%83%81(%EC%A0%95%EC%84%A0%EC%9E%AC).jpg",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNTYg/MDAxNzEwMDgxMjQ2NjY1.j8qHQ0-YMemYoOb8VJe5VrPyJG_Iz-4vw7-yVQmD9VEg.x7cxog3BWE9TE8ps9pXbMXWf5iBn85xi9zFX4Bm2YhIg.PNG/%EA%B0%9C%EC%9D%B8%EC%9E%91(%EB%B0%95%EC%84%B8%ED%99%98).png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMzAw/MDAxNzEwMDgxMjQ3Mzc1.ZijLtLFz3VvFJNHBJb2orJnuaPGq3ck4nBl5IjR8xUog.fB1nNkLdFA7teJrTD_scbMluFU8gjjZR0ca1dncMnMog.PNG/%EA%B0%9C%EC%9D%B8%EC%9E%91(%EC%9C%A4%EC%A7%80%EC%97%B0)_(2).png",
                 isVideo: false,
             },
         ]
@@ -217,23 +282,41 @@ const clubInfo: ClubInfo[] = [
         department: "콘텐츠디자인과",
         field: "영상·영화",
         link: [
-            "instagram",
-            "https://sunrinmir.github.io/"
+            {
+                label: "Facebook",
+                url: "https://www.facebook.com/LiveActionFilmSociety",
+            },
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/aun0fficial/",
+            }     
         ],
         joinlink: "https://sunrinmir.github.io/",
         awards: [
             {
+                year: "2020",
+                content: [
+                    "영상공모전 단편영화 부문 금상",
+                ]
+            },{
+                year: "2021",
+                content: [
+                    "영상공모전 단편영화 부문 대상",
+                    "영상공모전 광고 부문 은상",
+                ]
+            },{
+                year: "2022",
+                content: [
+                    "영상공모전 단편영화 부문 은상",
+                ]
+            },{
                 year: "2023",
                 content: [
-                    "선린 교내 캐릭터공모전 은상",
+                    "영상공모전 단편영화 부문 금상",
                 ]
             },
         ],
         gallery: [
-            {
-                url: "https://postfiles.pstatic.net/MjAyNDAzMDlfMTg3/MDAxNzA5OTkwMzc1NzQ0.dV27uPPi8KoUbPdHqsikIJqj74TRPoQrXyMSGOfh0icg.bhN2Qd3xm4uup337JoFHGR5GS7uZ6xGAtKH58xY6RwUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png?type=w773",
-                isVideo: false,
-            },
         ]
     },
     {
@@ -253,25 +336,202 @@ const clubInfo: ClubInfo[] = [
         "지식과 기술을 나누고 학생들의 창의 적인 사고와\n" + 
         "디자인 능력을 향상시키는 데 기여 하고 있습니다.",
         department: "콘텐츠디자인과",
-        field: "영상·영화",
+        field: "그래픽 디자이너",
         link: [
-            "instagram",
-            "https://sunrinmir.github.io/"
+            {
+                label: "Facebook",
+                url: "https://www.facebook.com/with.v.friends",
+            },
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/v.friends_official/",
+            },     
+            {
+                label: "웹사이트",
+                url: "https://vfriends.github.io/",
+            }     
         ],
         joinlink: "https://sunrinmir.github.io/",
         awards: [
             {
                 year: "2023",
                 content: [
-                    "선린 교내 캐릭터공모전 은상",
+                    "숙명여자대학교 AI - X\nSuper Hackathon Challenge\n최우수상",
+                    "서울특별시 시민상 (모범 청소년상)\n창의과학예술 부문 우수상",
+					"부산국제디자인어워드 동상",
+					"전국 상업경진대회 서울지역\n대회홍보크리에이터 부문 금상",
+					"선린 해커톤 생활 부문 금상",
+					"부산국제마케팅광고제\n크리에이티브 캠프 최우수상",
+					"서울시 직업계고\n창의아이디어경진대회 동상",
+					"선린인터넷고등학교\n그래픽공모전 캐릭터 부문 금상",
+					"대한민국 청소년 디자인 전람회 특선",
+					"대한민국 청소년 디자인 전람회 입선",
+					"레보리아 홍보 콘텐츠 공모전 우수상",
+					"선린인터넷고등학교\n그래픽공모전 포스터 부문 대상",
+					"선린인터넷고등학교\n그래픽공모전 포스터 부문 동상",
+                ]
+            },
+			{
+                year: "2022",
+                content: [
+                    "선린인터넷고등학교 영상공모전\n모션그래픽 부문 대상",
+                    "선린인터넷고등학교 그래픽공모전\n캐릭터 부문 금상",
+                    "선린인터넷고등학교 영상공모전\n광고 부문 금상",
+                ]
+            },
+			{
+                year: "2021",
+                content: [
+                    "국민의힘 X 여의도연구원\n공정한 대한민국 만들기 정책공모전 대상",
+                    "동그라미재단과 함께하는 TIDE \n인스티튜드 Teu Med 4기 최우수상 ",
+                ]
+            },
+			{
+                year: "2020",
+                content: [
+                    "한국공항공사 창업경진대회 우수상",
+                    "선린인터넷고등학교\n그래픽디자인 공모전 모션그래픽 부문 대상",
+                    "선린인터넷고등학교\n그래픽디자인 공모전 포스터 부문 대상",
+                    "선린인터넷고등학교\n그래픽디자인 공모전 UI/UX 부문 대상",
                 ]
             },
         ],
         gallery: [
             {
-                url: "https://postfiles.pstatic.net/MjAyNDAzMDlfMTg3/MDAxNzA5OTkwMzc1NzQ0.dV27uPPi8KoUbPdHqsikIJqj74TRPoQrXyMSGOfh0icg.bhN2Qd3xm4uup337JoFHGR5GS7uZ6xGAtKH58xY6RwUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png?type=w773",
-                isVideo: false,
+                thumbnail: "https://i.ytimg.com/vi/RRd_AQOsgp0/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/RRd_AQOsgp0?si=WM1D50LAYu3cggyM",
+                isVideo: true,
             },
+            {
+                thumbnail: "https://i.ytimg.com/vi/4B-haYHCwOE/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/4B-haYHCwOE?si=Voo5aDEm4vbdJ4qF",
+                isVideo: true,
+            },
+            
+            {
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTA1/MDAxNzEwMDkyMDg0NzYy.hyEGgakisBK0CGTPfagSs37WeYvacIKgBLFX1wEYnDog.e4u-M_Auj6f-DESogN9l_eehXtkpCkX10c0JPcxMNrsg.JPEG/bubbles.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTA0/MDAxNzEwMDkyMDg0NzYz.L_jIEh2-PrnXx4qFiOf72TfbAUbJGYoU8OLCZArqJHQg.hrfuEt7gccDand2sVC_J2vuKf_60MWcClPcerXaMnWsg.JPEG/christ_hemsworth.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjE1/MDAxNzEwMDkyMDg0ODI2.VVCwaUdjAtP0-vaqzEm1xkfef64vkiL7gFbW-ZBRhCQg.ZpBMNpZBkANbV1D7Y3NQGKHt5UZakwZXEdRhjisdSUEg.JPEG/v.friends.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNzIg/MDAxNzEwMDkyMDg1NjEw.G-5M4ijLJR6t-2pvN-tPzmcN58UOS7rjPj9Cuj9RpU8g.9SRampCVjmXTVb26TqrxXX8hrDKNRURs8WxbHeEaPd0g.JPEG/%EB%94%B0%EB%9C%BB%ED%95%9C_%EA%B2%A8%EC%9A%B8.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjI5/MDAxNzEwMDkyMTAxNjY0.DbXmbuz5jcKlchu3ND2nuavbYq_kT81SgvlZJr6ao5Ig.7kk3aewRDjiXRiArqulN-FTgY6bj_HmWSRyqamQopesg.PNG/%EB%93%B1%EB%8C%80.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjc1/MDAxNzEwMDkyMTAxNDA2._cyE6oeEXQeKVmXzlPN8i_hgnF6psX95gaFDL2WD-okg.-WKYhBaGTvpn8YdDZW6xYqRpAy30RhPiUJOXneF4auMg.PNG/%ED%94%84%EB%A0%88%EB%94%94%EC%9D%98_%ED%94%BC%EC%9E%90%EA%B0%80%EA%B2%8C_1.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTA3/MDAxNzEwMDkyMTAxNjY3.fphoyalBgvWTDYsRedLVjiMMpAEBprZDT7vDa5TZrdIg.ZskzFDAX49XgrcwVl4-kDsu7Fz_Bpd0sqtfBtAB_iUAg.PNG/%ED%94%84%EB%A0%88%EB%94%94%EC%9D%98_%ED%94%BC%EC%9E%90%EA%B0%80%EA%B2%8C2.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTE3/MDAxNzEwMDkyMTAxNjM0.oCH0hRMWOrihOmF-IB0weqUUpcYle37-EZO3S92DuhAg.aMOoex9tc2MceWvfFOFnYbTfal9PT-N06d2DaX-lQeYg.PNG/%ED%95%B8%EB%93%9C%ED%8F%B0.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjgx/MDAxNzEwMDkyMTA5MTcx.O31Vu8DTpiaSlXDd20Aimhl11bGBr9rA10m_xNyKC1Mg.dLKz9R3R115dkwuTLOXFVJn-x0y_rokkejTmYZwt4Qsg.JPEG/%EA%B0%80%EC%9D%84.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNDQg/MDAxNzEwMDkyMTA5NDMy.fgrKpU_Xk7cN4uFmT0qkt_IW4kNVqPmqVToUBx_LuAYg.QhcE3cQcAC7IkI2sxzTNvN9NY7mwiXqFRIHhfd-Rntgg.PNG/%EB%85%B8%EC%9D%84.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYx/MDAxNzEwMDkyMTA5MDM5.oHsTiwxbS-cV1SVbGcnceV3kNuj75bAaKIJxLziqqUEg.UPQeKk5oUWGT41TcnDr1gnpv0ARpaLSCPLdCdfwm4qcg.PNG/%EB%94%B8%EA%B8%B0_%ED%83%95%ED%9B%84%EB%A3%A8.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTYy/MDAxNzEwMDkyMTEwMDg1.Jb-Enr7mvzUkV-NsVY2nd0eJKoXmq4Du1146hbdoVowg.XnAwtAKNpW1JMCEAeTyz98uUAjMACDTjnHxDG5rFjn4g.PNG/%EB%B0%94%EB%8B%A4_%EC%B6%98%EC%8B%9D%EC%9D%B4.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTk3/MDAxNzEwMDkyMTA5MTEx.R7iqMcshPHJx08KgDUymqw868ZJMKrWmKSB3gSF8944g.3331NGM4-7m44R0YGyube7NrkD6RxT_bSFr0aKiOnAIg.PNG/%EC%9E%90%ED%8C%90%EA%B8%B0.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTQg/MDAxNzEwMDkyMTA4OTU0.zuLzxt6NbdR5UM7ChPAiiCFGHxIXYveET-p5y82hrYog.7mVLFrjEfSmIvB3ChhcVy3MYQzfNy8c_25MPHWgG-ygg.PNG/%EC%B6%98%EC%8B%9D%EC%9D%B4.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk1/MDAxNzEwMDkyMTM5NTg5.76y_LJpolOwGurUVMgmfnUCL0oMrbPQFb-an-PlYrCUg.zY8yhB_7ExWHdNrxnhIlnPUo2pY7I4t1G2UEblKHpBIg.JPEG/TRAVEL_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTg3/MDAxNzEwMDkyMTM5ODQ4.vc9qNVEI_nfR00lD0apa1wVC8B6oskSiTZVrc0n3DXMg.8TKR47cj8iDwmnQLY6Nqxpo-9P_M9J-w6CH-SbCLQpkg.JPEG/%ED%99%98%EA%B2%BD_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjMz/MDAxNzEwMDkyMTYyMDk4.Fvcjv9puO0wOcxRdf9vVby-_RdLMjNsrxLcSf1tXpUUg.9es9yrY05RCnHqJilyR9Uyw5_Xg4fDWFLauvNN7054gg.PNG/%EC%9C%84%ED%82%A4%ED%8E%AB.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfODAg/MDAxNzEwMDkyMTYyMDYx.Z8u8sgmlospYqL1rIKflHRaeyggS6rMSze9WmB0Wk3Yg.9yzsOxxwvYeOI7YOlEZU1RiwVQlimjOvBU3Uwvq5Mucg.JPEG/%EC%BD%94%EC%BD%94%ED%8C%9C_%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjU5/MDAxNzEwMDkyMTc0ODc4.Xt37uTJpzoRcNXiB94OUJ2onexPxtaQKthv4zvg7b2Ag.7GYL5NGB4YbET1AQWdoXfbgH6uCzQPz80le0x-EL9Uwg.PNG/3D_%ED%86%A0%EA%B9%BD%EC%9D%B4.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk2/MDAxNzEwMDkyMTc0NjQw.CUU8Lg5ivdASSPq6ZoI7FmuT6GrcCQ4cAGs_mz_slL4g.duJFFA7tafM0-dSw9u3Rm3sHDgCFPPYrrNc-KuERRogg.PNG/CD_IN.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTQx/MDAxNzEwMDkyMTgzMzQ2.OZzHoa5RGrLk9fM39bPPg0h9m-3-XAXsJBW7d-YSnkUg.lUenZyyayllNRo4uZZs6Cwz0yv0kPeQ0VUZI_ugSINQg.PNG/%EB%B0%A9_%EC%95%88.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNzUg/MDAxNzEwMDkyMTgzNjc0.ZDHyDNml9rfE5f12sZk-I0l6pWATFpvXgqDZa0EAVZ0g.SdyolwzN3eatxWtrX6i07tiS5moC-egOLVDJgbi2y9Ag.PNG/%EC%B1%85%EA%B3%BC_%EC%BB%A4%ED%94%BC.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjM3/MDAxNzEwMDkyMTgzMjM1._ULv0Z7a5CMPitxntvNrgcvllOFEjG1WQNrcPbAJ8fcg.w0-DgPlXeH4TpkGCYx6c2IYHo4h9a4A7XsYMatPKgGUg.PNG/%EC%BB%A4%ED%94%BC.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjAx/MDAxNzEwMDkyMTkzMTcx.4HslNHyhuSGiCeecJsVmKjdqACIuuCFne35rx_6VVAEg.ITzo9dvJWMF3MU9wxDlZXkrSTW7dVe1-JeufDIa9GcMg.PNG/2023_%EB%8F%99%EC%95%84%EB%A6%AC_%EC%A0%84%EC%8B%9C%ED%9A%8C_%EB%A9%94%EC%9D%B8%ED%8F%AC%EC%8A%A4%ED%84%B0.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNjgg/MDAxNzEwMDkyMTkzMzM3.yGFJn4R6lxn9ou7aav0OUMxSWJ3K_csNi_XCKHY0vRcg.19YLfE1mVJQ7Ne_F4C1nG2AfYlkUh3lbdK3KhfAvhsAg.PNG/%EB%AA%BB%EB%82%9C%EC%9D%B4_%EC%9D%8C%EB%A3%8C.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk4/MDAxNzEwMDkyMTkzMzE1.mhveCc7x6N8Co_mBiVkG1gtCIwlb3byFAp2ML3cv4rkg.Ba85lB4nnOM5dVnAZ-jSufGE2G9kTIjgLW6lTfLz0P0g.PNG/%EC%84%A0%EB%83%A5%EC%9D%B4.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNTcg/MDAxNzEwMDkyMTk0Mjcz.0GyeC3WWez2BFN9sRzm9-6WuI0zzRt2g1xYbbbhtNSMg.Z0q1ki2Z1T6rvwNYayAj2ofwQxU09yoeSvdg1CSoPCsg.PNG/%EC%86%8C%EB%8B%A4.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTcw/MDAxNzEwMDkyMTkzMTQy.O9fF2vBO8cBQVZB5FOIIovsAmScTjdseVm1XwqQkargg.jsMfVIkB3PtDneGJJ8pEHQ5ZVW1N_vWiASJxI3nMhZQg.PNG/%EC%95%84%EB%B2%A8.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTcg/MDAxNzEwMDkyMTk0Mjgx.jw4UPLrXTVXcMzyIXrARbRnZ_pCFa2rBu59EPXja6HEg.qiaohSofhh5_pULqpoa-4Uuoj-m43Lt1Wbh0jfp54zUg.PNG/%EC%95%84%EC%9D%B4%EB%A6%AC%EC%8A%A4.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTU0/MDAxNzEwMDkyMjQ1OTA3.pH1pOegcR_BWVE--H9YfpH7DRHqjU6Dywz0JtCXVhg8g.mNUY8d3WNvNCfouKzMharp_rg3Jlkjs717I66LZA2eMg.PNG/2023_Happy_New_Year.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNyAg/MDAxNzEwMDkyMjQ1OTk2.VJIzAeiTJY_Y11grWsQmWTdj2_ypq5CKIsNdVdhhcD8g.l68Sc9R9dcd4KfSuIRY9JQd6aBvWPJV0YyjiZ7jAcFwg.JPEG/Neoul_A1_1.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNTUg/MDAxNzEwMDkyMjQ1Nzk4.amp1wMy57K7lQxQM_JoRoQC4tMA1fFhyx8WvGoX86OQg.YAqj2C1rvEiPXyGLbIUcmneDK1vuYyDCQoqIRgqwx_8g.JPEG/Neoul_A1_2.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjgg/MDAxNzEwMDkyMjQ1NDI2.mtOX4yftDnGrxwLPoCFXiTO-4HSVmnYZzqM6vNJDjqAg.2M6UKtAwP0KhhpHnBDesP-2oRP0ERRKfVoSwfJY2_oUg.JPEG/%EA%B2%BD%EB%82%A8_%EA%B3%B5%EB%AA%A8%EC%A0%841.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYw/MDAxNzEwMDkyMjQ1Mzc3.bui6Z2JZhu8IcMt2npx0WzJAxqLPAlaiY_UC1OWrG9Ig.zj_qAHjhqVpfP9iQrlcswcWU7494gJ1mUec6eofXFlwg.JPEG/%EA%B2%BD%EB%82%A8_%EA%B3%B5%EB%AA%A8%EC%A0%842.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTIz/MDAxNzEwMDkyMjQ1OTA1.4OYNoKmamJQh6YlPmFOwKjz9KokfphGp3YKt_rpsrRgg.8FJxkxz6uNqcarVYPUkaLzQmVKWulHkPxsH78qbpsXgg.JPEG/%EB%86%80%EB%A9%8D%EB%8F%84%EC%84%9C%EA%B4%801.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYx/MDAxNzEwMDkyMjQ3MTE4.ZH0rAz5rRZLWAl5qn2qDB_UH4UxWYL4b7qqd6ifCn5Yg.E5BvV1N0Z9s4UZI8hzaawggVlVNAHm4Ht1R2u5gAjoog.JPEG/%EB%86%80%EB%A9%8D%EB%8F%84%EC%84%9C%EA%B4%802.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTAw/MDAxNzEwMDkyMjQ3MzY3.XKSNCSylBqlVLN2-hFRHHTyBnStKyu6oxQJ3N6sW8Jog.2MhQKCAS3XTIUqn1ZCAmAwlJbwP2IpKD6CVYmre0ycQg.JPEG/%EB%B0%80%ED%82%A41.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjUw/MDAxNzEwMDkyMjQ3ODU3.X-D9wPSK_NOI5DBRjZ4nugrPK1KEy6icv3FO907fhcIg.YlqX9GPybB3UMy6ST13imJ79zvk5UYdjannrYvk2S30g.JPEG/%EB%B0%80%ED%82%A42.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTEg/MDAxNzEwMDkyMjk4MjEy.W2po2kQwhebi5gOyAsJOin-Iy4WVMPQBktpvaudCutIg.-Kb91PaMvSqXHtOQyj8g3n7KY6lPSMuhg7HyEUu_r0Qg.JPEG/%EB%B2%A0%EB%86%88.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjAg/MDAxNzEwMDkyMjk4MjEx.21wB8mAJcRchP4oIyp9--PIRahWJXn8H1Ycp0WZTm6Yg.NPBFO1pYLklFtWLL4dZIhNDDCV3Qo2A3_Sk5UJCo5vEg.JPEG/%ED%85%80%EB%B8%94%EB%9F%AC.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjcw/MDAxNzEwMDkyMjk4Mjc4.xeYUx_luqCpX0-WX45YtiA_UixX2ezd_M-wOiMtj-OIg.-5gzi9p7BRo0ZsWrK332fVhTpruOY5qdN4pvwCdN6Q8g.JPEG/%ED%9E%88%EB%93%9C%EB%9D%BC%EB%A6%AC%EC%8A%A4%ED%81%AC.jpg",
+				isVideo: false,
+            }
         ]
     },
     {
@@ -283,24 +543,97 @@ const clubInfo: ClubInfo[] = [
         "아닌 게임디자인도 체계적으로 배울 수 있으며 부원들끼리의\n"+
         "협업을 지양하는 동아리입니다.\n",
         department: "소프트웨어과",
-        field: "영상·영화",
+        field: "게임 디자이너",
         link: [
-            "instagram",
-            "https://sunrinmir.github.io/"
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/c.real._/",
+            },     
+            {
+                label: "웹사이트",
+                url: "https://creal.kro.kr/",
+            },     
         ],
         joinlink: "https://sunrinmir.github.io/",
         awards: [
             {
                 year: "2023",
                 content: [
-                    "선린 교내 캐릭터공모전 은상",
+                    "제 9회 헤커톤 - 금상",
+                    "제 9회 해커톤 - 대상",
+                    "제 4회 직업계고 IT분야\n취업 UP 게임 개발 대회 - 장려상",
+                    "전국 청강 게임 대전 - 장려상",
+                    "선린 천하제일 코딩대회 - 대상",
+                    "선린 천하제일 코딩대회 - 은상",
+                    "한국정보올림피아드 1차 대회 일반고부문 은상\n전체응시자부문 동상",
+                    "한국정보올림피아드 2차 대회 동상",
+					"NYPC 1519 부문 본선 진출",
+					"디콘 동상",
+					"디콘 은상",
+					"디콘 금상",
+                ]
+            },{
+                year: "2022",
+                content: [
+                    "한국코드페어 고등부\nsw공모전 본선 16등",
+                    "IT분야 직업계고\n게임개발대회 장려상",
+                    "해커톤 동상",
+                    "그래픽 공모전 캐릭터 부문 금상",
+                    "그래픽 공모전 일러스트레이션 부문 금상",
                 ]
             },
         ],
         gallery: [
             {
-                url: "https://postfiles.pstatic.net/MjAyNDAzMDlfMTg3/MDAxNzA5OTkwMzc1NzQ0.dV27uPPi8KoUbPdHqsikIJqj74TRPoQrXyMSGOfh0icg.bhN2Qd3xm4uup337JoFHGR5GS7uZ6xGAtKH58xY6RwUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png?type=w773",
-                isVideo: false,
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNTkg/MDAxNzEwMDkzMDIyMTg0.CMkeqQdEHGeLUk2ksuFj7S4Vn449u0H9j0ZfzCnFEuEg.-fpRz_f_s3cAuZW9zOYj1aidNXOOBIaIQVKz7bz31uQg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8405.jpg",
+				isVideo: false,
+            },
+			{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTEw/MDAxNzEwMDkzMDIyMTk2.e3MOEB-yYqQI7gSpYj3QmID3CuZioPASiCYRoK4t_lQg.Rm7JVpLCQPHnUJx-JiwDZSp4G4f28pjI61H1dj422Y0g.JPEG/%EC%A1%B0%EC%97%B0%EC%A7%8401.jpg",
+				isVideo: false,
+            },
+			{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMzQg/MDAxNzEwMDkzMDIyMTc3.FdBhf79eOaZ9R5TNj-R0rkOY_fMukBGIbhUsBNO6_wAg.Ctb4mcvcx3c-5AeDLdhvZGi0v18Ssk5qJHdoVgd9U-0g.JPEG/%EC%A1%B0%EC%97%B0%EC%A7%8402.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfOCAg/MDAxNzEwMDkzMDIyMTc0.S0X2qe3Q2E_7oR0YMfIDcnVS0dgTcssR9W7ZAiQo8Hog.b47ggkCQm_yFkYrXsQ4Tt3LauqjCXGDGFU6grz5zX0wg.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8403.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTg3/MDAxNzEwMDkzMDIyMTg1.ECePACr7yv8JPLMDFz8_hQgUKotfL2wnSxFBILYq9dsg.5UfHkg4uO8DVpiJHPZoyMjhgAz1viqGALALVmTSvuX0g.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8404.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjIw/MDAxNzEwMDkzMDIyNDQx.JeYRfHISOj66o9-Sda5rXiiJD8Ldcn3SD87D4NgsNFQg.cbbHC3cMSLpknZEQZA7Es5MLpcIeqQbkAtC3pMRkw9gg.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8405.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk4/MDAxNzEwMDkzMDIyMTkw.MQcS6p11EybERqlOmWpQaNhE5cpLbmPoUMO2amm8RZ4g.y_SAhKyikuk2R1zdFZ6Y0pIXmMi8MgyrmfJb8MN0-kQg.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8406.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjI5/MDAxNzEwMDkzMDIyNDQ3.iNndFpAwjaHPXpHw-5tOdvBBywv7m3A_FCM6ZK7QACcg.HkvukuSEsNdtsd2_vOsYHSJ8VbgqwMgo-2bz0AXCRdwg.JPEG/%EC%B0%A8%EC%9C%A4%EC%8A%AC01.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTc1/MDAxNzEwMDkzMDIyNDUx.mqIXLhOxz3nDyrmBD7at0t8W9yzDE4tgFpyt2RKkVfkg.M4HpfNa16Udf0jZnT4abBKPLqjQ88skYX-wXj1uE0pUg.JPEG/%EC%B0%A8%EC%9C%A4%EC%8A%AC02.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjQ1/MDAxNzEwMDkzMDIyNzA3.OCHNu1QddtyJqPxV9C0Xy1o9ma_lxm_iaW7MFyPNedYg.15sRJ9oyRXXeSHRgiF4rby7erSBh0xqz73z9kUtlHxMg.PNG/%EC%84%9C%EC%9D%B4%EC%A4%80%EB%A3%A8%ED%95%9801.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTQ5/MDAxNzEwMDkzMDIyNjQ5.9KfS06HVcs3ZgpjoQmMfrRIa3rkdlfsgINsQhDe6NqMg.z6dYfZ4Q_7Nxqus37I3zBX0KEYJli7Gnjbn2ZQ_I8qIg.PNG/%EC%84%9C%EC%9D%B4%EC%A4%80%EB%A3%A8%ED%95%9802.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTMx/MDAxNzEwMDkzMDIyODI3.Y4mBGXr1MMj2UQU4GbQwjpjUIPQQ4Xm5cKYwpUFI84og.bWaU7f8WdZTcwyDGcfyzzl2kYN5ApcZ0jpHuu9oAgBog.PNG/%EC%84%9C%EC%9D%B4%EC%A4%80%EB%A3%A8%ED%95%9803.png",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjUz/MDAxNzEwMDkzMDIyNzE1.aw4vUTEYDomBt0WgWTzxFsyfZT30UwQHEC6yFGIv5kIg.m0972Ex9gQKxX_hwzGI1IPaWsy-A7JBWaA9fMqCjiCcg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8401.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTUg/MDAxNzEwMDkzMDIyOTIx.5OPp-QI72q05x2UUShCiSrG5ISAyHzsA0E6Xv5eDgYYg.DYKtBjNy24J3PKTq_7pzaF1YYSPwQI66CBLXKoziVJQg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8402.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYy/MDAxNzEwMDkzMDIyOTYw.izUFFd3iobziUzg5rlXsbnHu3G_Oh4U45NtLELVuz7gg.Nm4h6yC-ospZEZzqoTqIcVgJ2WRQu2Yry1jkBEmOQ1Qg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8403.jpg",
+				isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNDIg/MDAxNzEwMDkzMDIyOTgx.d4NKQd4vnoeyTeV8Lu2BI_QlBDvKdSuBCAvszIRHzB4g.x1-T3Cm7HKLzZC4hzfsFuvdLsCGNfhDPZUZcii-6VeYg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8404.jpg",
+				isVideo: false,
             },
         ]
     },
@@ -316,10 +649,16 @@ const clubInfo: ClubInfo[] = [
         "신념 아래, 우리들의 전공을 활용하여 세상의 간극들을\n"+ 
         "좁혀 나가고자 오늘도 노력하고 있습니다.\n",
         department: "소프트웨어과",
-        field: "영상·영화",
+        field: "앱·웹 UI 디자이너",
         link: [
-            "https://www.instagram.com/sunrin_tapie/",
-            "https://tapie.kr/"
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/sunrin_tapie/",
+            },     
+            {
+                label: "웹사이트",
+                url: "https://tapie.kr/",
+            },     
         ],
         joinlink: "https://tapie.kr/",
         awards: [
@@ -347,24 +686,116 @@ const clubInfo: ClubInfo[] = [
         "학생들에게 맞는 수업을 진행하고 여러 프로젝트와 과제를 진행하며\n"+
         "전공 실력을 향상시킬 수 있게 도와줍니다.\n",
         department: "콘텐츠디자인과",
-        field: "영상·영화",
+        field: "영상편집, 그래픽 디자인",
         link: [
-            "https://www.facebook.com/centerworld",
-            "https://sunrinmir.github.io/"
+            {
+                label: "Facebook",
+                url: "https://www.facebook.com/centerworld",
+            },     
+            {
+                label: "Instagram",
+                url: "https://www.instagram.com/junr_official/",
+            },     
         ],
         joinlink: "https://sunrinmir.github.io/",
         awards: [
             {
                 year: "2023",
                 content: [
-                    "선린 교내 캐릭터공모전 은상",
+                    "2023 교내영상공모전 금상",
+                    "2023 전국상업경진대회 금상",
+                    "2023 교내영상공모전 은상",
+                    "2023 교내영상공모전 동상",
+                    "2023 교내영상공모전 동상",
+                    "대한민국 청소년 디자인 전람회 특선",
+                    "대한민국 청소년 디자인 전람회 입선",
+                    "레보리아 홍보 콘텐츠 공모전 우수상",
+                ]
+            },
+            {
+                year: "2022",
+                content: [
+                    "대한민국 청소년 디자인 전람회 특선",
+                ]
+            },
+            {
+                year: "2021",
+                content: [
+                    "선린인터넷고등학교 영상공모전 금상",
+                    "선린인터넷고등학교 영상공모전 금상",
                 ]
             },
         ],
         gallery: [
             {
-                url: "https://postfiles.pstatic.net/MjAyNDAzMDlfMTg3/MDAxNzA5OTkwMzc1NzQ0.dV27uPPi8KoUbPdHqsikIJqj74TRPoQrXyMSGOfh0icg.bhN2Qd3xm4uup337JoFHGR5GS7uZ6xGAtKH58xY6RwUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png?type=w773",
-                isVideo: false,
+                thumbnail: "https://i.ytimg.com/vi/2G0ujJBIUsk/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/2G0ujJBIUsk?si=-ipKnKD-kO9_7myH",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/4CrrfwbqXvM/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/4CrrfwbqXvM?si=pCTgYK0TLYszXF1A",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/h5BPbEakXrU/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/h5BPbEakXrU?si=dYBBRb3IotaN4IuD",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/1NRe97TAlxw/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/1NRe97TAlxw?si=2lT83K5qMdJv9GUH",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/397DuqeA6jE/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/397DuqeA6jE?si=W9qm9vTOiDhYLs-W",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/AV1rfR7H224/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/AV1rfR7H224?si=zuyIGSYY_B0g4hm4",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/ffLT-D6nK_U/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/ffLT-D6nK_U?si=qrmI8_uLFETcKfTv",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/1dsvSxCj6-U/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/1dsvSxCj6-U?si=vgLWXM_Cp67fYAxQ",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/YT_IHG2OhV8/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/YT_IHG2OhV8?si=UVd5yHCbzNSHC5WL",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/_ZXAitR8gwY/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/_ZXAitR8gwY?si=hAIjz628pML_EZBT",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/Ro-xE9J_osk/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/Ro-xE9J_osk?si=58_bbJ07lDZOBjuc",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/Vl5Sr43wuS4/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/Vl5Sr43wuS4?si=NE0kk5NxL3CpSubu",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/f8pZHfV22b0/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/f8pZHfV22b0?si=0Xr9qrE7Wb3S-8dc",
+                isVideo: true,
+            },
+            {
+                thumbnail: "https://i.ytimg.com/vi/s_6JYCeIMCI/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/s_6JYCeIMCI?si=kC8c90nKCVVkzEko",
+                isVideo: true,
             },
         ]
     },

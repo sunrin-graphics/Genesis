@@ -18,7 +18,9 @@ function Header() {
     <HeaderContainermid isToggled={isToggled}>
       <HeaderContainer>
         <HeaderTitle>
-          <Logo />
+          <Link to={"/"}>
+            <Logo />
+          </Link>
           <ToggleButton onClick={() => setIsToggled(!isToggled)}>
             {isToggled ? <Close /> : <Menu />}
           </ToggleButton>
@@ -107,7 +109,7 @@ const ToggleButton = styled.div`
 const HeaderBtnBox = styled.div<HeaderBtnBoxProps>`
   @media screen and (max-width: 600px) {
     display: ${(props) => (props.isToggled ? "flex" : "none")};
-    margin-top: 40px;
+    margin-top: 54px;
     flex-direction: column;
     width: 100%;
     justify-content: start;
@@ -125,7 +127,7 @@ const HeaderBtn = styled.button`
 
   @media screen and (max-width: 600px) {
     text-align: start;
-    padding: 0px;
+    padding: 8px 0px 8px 0px;
   }
 `;
 
@@ -155,7 +157,7 @@ const HeaderLinkBtn = styled.div<HeaderBtnBoxProps>`
   @media screen and (max-width: 600px) {
     display: ${(props) => (props.isToggled ? "flex" : "none")};
     justify-content: start;
-    margin-top: 21px;
+    margin-top: 12px;
   }
 `;
 
@@ -173,5 +175,6 @@ const Snsdiv = styled.div<HeaderBtnBoxProps>`
   @media screen and (max-width: 600px) {
     display: ${(props) => (props.isToggled ? "flex" : "none")};
     justify-content: start;
+    padding: 6px 0px 6px 0px;
   }
 `;

@@ -5,6 +5,7 @@ import LeftArrowIconBig from "../../assets/LeftArrowIconBig";
 import clubList, { ClubList } from "../../data/clubdata";
 import React, { useState } from "react";
 import CloseWhite from "../../assets/Closewhite"
+import RightArrowIcon from "../../assets/RightArrowIcon";
 
 function Club() {
 
@@ -15,10 +16,12 @@ function Club() {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalImageUrl, setModalImageUrl] = useState("");
+    const [isVideo, setIsVideo] = useState(false);
 
-    const handlePictureBoxClick = (imageUrl: string) => {
+    const handlePictureBoxClick = (imageUrl: string, isVideo: boolean) => {
         setModalImageUrl(imageUrl);
         setIsModalOpen(true);
+        setIsVideo(isVideo);
     };
 
     const closeModal = () => {
@@ -30,7 +33,11 @@ function Club() {
             <ModalContent>
                 <ClubnameModal>{clubInfo?.name}</ClubnameModal>
                 <CloseButton onClick={closeModal}><CloseWhite/></CloseButton>
-                <ModalImage src={modalImageUrl} alt="Modal" />
+                {!isVideo ? (
+                    <ModalImage src={modalImageUrl} alt="Modal" />
+                ) : (
+                    <Youtube src={modalImageUrl} />
+                )}
             </ModalContent>
         </ModalBackground>
     ) : null;
@@ -43,7 +50,6 @@ function Club() {
                 <ClubTitle>
                     <Clubname>{clubInfo?.name}</Clubname>
                     <ClublogoImage src={require(`../../assets/clubs/${clubInfo?.logo}.svg`)}/>
-                    
                 </ClubTitle>
                 <DescriptionMain>
                     <DescriptionText>
@@ -71,9 +77,17 @@ function Club() {
                             <SubtextTitle>
                                 외부링크
                             </SubtextTitle>
-                            <SubtextContain>
-                                인스타
-                            </SubtextContain>
+                            {clubInfo?.link.map((content) => (
+                                <>
+                                    <SubtextWebsiteContainer href={content.url} target="_blank">
+                                        <SubtextWebsite>
+                                            {content.label}
+                                        </SubtextWebsite>
+                                        <RightArrowIcon/>
+                                    </SubtextWebsiteContainer>
+                                </>
+
+                            ))}
                         </SubContainer>
                         <JoinButton>
                             <JoinButtonText>
@@ -115,15 +129,14 @@ function Club() {
                 </AcheivetitleBox>
                 <PictureContainer>
                     {clubInfo?.gallery.map((item, i) => (
-                        <PictureBox key={i} onClick={() => handlePictureBoxClick(item.url)}
-                        >
-                        <PictureContent src={item.url} />
+                        <PictureBox key={i} onClick={() => handlePictureBoxClick(item.url, item.isVideo)}>
+                        <PictureContent src={!item.isVideo ? item.url: item.thumbnail} />
                         </PictureBox>
                     ))}
                 </PictureContainer>
                 <MobilePictureContainer>
                     {clubInfo?.gallery.map((item, i) => (
-                        <MobilePictureBox key={i} onClick={() => handlePictureBoxClick(item.url)}
+                        <MobilePictureBox key={i} onClick={() => handlePictureBoxClick(item.url, item.isVideo)}
                             >
                             <MobilePictureContent src={item.url} />
                         </MobilePictureBox>
@@ -186,7 +199,7 @@ const DescriptionMain = styled.div`
 `
 const DescriptionText = styled.span`
     margin-top: 24px;
-    line-height: normal;
+    line-height: 1.6;
     white-space: pre-wrap;
     font-size: 18px;
     font-style: normal;
@@ -258,6 +271,26 @@ const SubtextTitle = styled.text`
 const SubtextContain = styled.text`
     color: #000;
     text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    @media screen and (max-width: 1080px) {
+        font-size: 13px;
+    }
+`
+
+const SubtextWebsiteContainer = styled.a`
+     display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+`
+const SubtextWebsite = styled.text`
+    color: #000;
+    text-align: center;
+    border-bottom: #000 solid 1.5px;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -355,9 +388,14 @@ const AcheiveBoxContentContainer = styled.div`
 
 const AcheiveBoxContentAward = styled.text`
     font-size: 18px;
+
+text-align: right;
     font-style: normal;
+    white-space: pre-wrap;
+    align-items: end;
     font-weight: 500;
     margin-bottom: 8px;
+    line-height: 1.3;
 
     @media screen and (max-width: 1080px) {
         font-size: 14px;
@@ -454,7 +492,7 @@ const ModalImage = styled.img`
 const CloseButton = styled.span`
     position: absolute;
     top: -30px;
-    right: 10px;
+    right: 1px;
     font-size: 20px;
     cursor: pointer;
 `;
@@ -463,11 +501,22 @@ const ClubnameModal = styled.text`
 
     position: absolute;
     top: -30px;
-    left: 10px;
+    left: 1px;
     font-size: 20px;
     font-weight: 600;
     color: white; /* 텍스트 색상은 이미지에 따라 조정할 수 있습니다. */
     
 `
+
+const Youtube = styled.iframe`
+  width: 1080px;
+  height: 600px;
+  border: none;
+  border-radius: 8px;
+
+  @media screen and (max-width: 768px) {
+    height: 250px;
+  }
+`;
 
 export default Club;

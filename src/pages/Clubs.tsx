@@ -34,6 +34,7 @@ function Clubs() {
                     key={club.id}
                     onClick={() => {
                       navigate(`/club/${club.id}`);
+                      window.scrollTo({ top: 0 });
                     }}
                   >
                     <Clubframe
