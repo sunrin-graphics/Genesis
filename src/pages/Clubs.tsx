@@ -92,6 +92,7 @@ const ClubContainer = styled.main`
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 11px;
   }
 
 

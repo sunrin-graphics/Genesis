@@ -34,7 +34,7 @@ function Club() {
                 <ClubnameModal>{clubInfo?.name}</ClubnameModal>
                 <CloseButton onClick={closeModal}><CloseWhite/></CloseButton>
                 {!isVideo ? (
-                    <ModalImage src={modalImageUrl} alt="Modal" />
+                    <ModalImage src = {`https://cdn.sunrin.graphics/files/demo/2024/${clubInfo?.name}/${modalImageUrl}.webp`} alt="Modal" />
                 ) : (
                     <Youtube src={modalImageUrl} />
                 )}
@@ -130,7 +130,7 @@ function Club() {
                 <PictureContainer>
                     {clubInfo?.gallery.map((item, i) => (
                         <PictureBox key={i} onClick={() => handlePictureBoxClick(item.url, item.isVideo)}>
-                        <PictureContent src={!item.isVideo ? item.url: item.thumbnail} />
+                            <PictureContent src={!item.isVideo ? `https://cdn.sunrin.graphics/files/demo/2024/${clubInfo.name}/${item.url}.webp` : item.thumbnail} />
                         </PictureBox>
                     ))}
                 </PictureContainer>
@@ -138,7 +138,7 @@ function Club() {
                     {clubInfo?.gallery.map((item, i) => (
                         <MobilePictureBox key={i} onClick={() => handlePictureBoxClick(item.url, item.isVideo)}
                             >
-                            <MobilePictureContent src={!item.isVideo ? item.url: item.thumbnail} />
+                            <MobilePictureContent src={!item.isVideo ? `https://cdn.sunrin.graphics/files/demo/2024/${clubInfo.name}/${item.url}.webp` : item.thumbnail} />
                         </MobilePictureBox>
                     ))}
                 </MobilePictureContainer>

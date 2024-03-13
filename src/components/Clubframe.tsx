@@ -82,15 +82,22 @@ const ClubContent = styled.p`
 `;
 
 const ClubBottomBox = styled.div`
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: end;
   padding: 13px 0;
+  @media screen and (min-width: 600px) {
+    border-bottom: 1px solid black;
+    }
 `;
 
 const ClubInfoBtn = styled.button`
   background-color: rgba(0, 0, 0, 0);
   border: none;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+
+    }
 `;
 
 const ClubTitleBox = styled.div`

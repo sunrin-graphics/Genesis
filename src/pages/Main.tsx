@@ -78,10 +78,16 @@ const ContentText = styled.text`
   line-height: 1.3;
 
   @media screen and (max-width: 600px) {
+    width: 100%;
     font-size: 14px;
+    }
+
+  @media screen and (min-width: 600px) {
+    white-space: pre-wrap;
     }
 `
 function Main() {
+  const contenttext = "콘텐츠디자인과 시연회는 2020년부터 매년 신입생들을 위해 주최되는 행사입니다.\n신입생들은 시연회를 통해 앞서 입학한 선배들의 작품을 감상할 수 있습니다.\n또한 동아리 선택부터 콘텐츠디자인과 생활에 대해 필요한 전반적인 정보를 얻을 수 있습니다."
   return (
     <ContainerMain>
     <Container>
@@ -103,9 +109,7 @@ function Main() {
       </WelcomeDiv>
       <ContentDiv>
         <ContentText>
-        콘텐츠디자인과 시연회는 2020년부터 매년 신입생들을 위해 주최되는 행사입니다.<br/>
-        신입생들은 시연회를 통해 앞서 입학한 선배들의 작품을 감상할 수 있습니다.<br/>
-        또한 동아리 선택부터 콘텐츠디자인과 생활에 대해 필요한 전반적인 정보를 얻을 수 있습니다.
+          {contenttext}
 
         </ContentText>
       </ContentDiv>

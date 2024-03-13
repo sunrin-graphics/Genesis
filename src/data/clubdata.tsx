@@ -77,111 +77,115 @@ const clubInfo: ClubInfo[] = [
                 isVideo: true,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTQ3/MDAxNzEwMDY3OTQwNjM0.6TR8y4kzO0K_FX-ihdxsh1Mcb9gHwavO8IoWNF5qBQIg.U0WiOx9RyXaFc2nxPyzFeHQEhvnm7rmasBOEPx-tqh4g.PNG/GENESIS_%ED%8F%AC%EC%8A%A4%ED%84%B0_01.png",
+                url: "1",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjQw/MDAxNzEwMDY3OTU0OTg3.TWP0T7UbKXd3t5w9xtE_6kL_lm52sUmCe-VJtiP8Ojgg.7sgln_WKDZkvrvpEYAmmZdJ-BAeelEPP-EmXjjD4_WAg.JPEG/GENESIS_%ED%8F%AC%EC%8A%A4%ED%84%B0_03.jpg",
+                url: "2",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNzAg/MDAxNzEwMDY4MjY0MDU5.tMTeqtSAkHHAHElLYPfHRO0RK2quXyWIBvPCYxhfc0Qg.VJnSHAFxAOvhhJdjp5-9wNCZx7wbnvnfQQJG-NweiWMg.JPEG/GNENSIS_%ED%8F%AC%EC%8A%A4%ED%84%B0_02.jpg",
+                url: "3",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTQ4/MDAxNzEwMDY3OTI4Nzgw.fS03TpET5w_x1hSRPQs1M_zPLe5RplWSzbkDNF2ZGBAg.bxWgqTUCD8gx58tB70UMFNQmRhNylxH5Sbvv-HKuSOEg.JPEG/Happy_Date.jpg",
+                url: "4",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfODUg/MDAxNzEwMDY4MDMxMjk1.QDD_4GYxiovPj8ZRn8CBqSTF_vLjLaqMtnEuGZSqRv8g.5x1vrs8JL4MUzdfSNLPBCNI-bzOmNwIae9sPK1jc3jkg.JPEG/LOVE_BATTERY.jpg",
+                url: "5",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjYz/MDAxNzEwMDY3OTI2NTMw.KvM80aRJ8RC9vS-V9PhETkYskXvFtDocBKcXSlkqhmgg.dSZkxt_H2ZkU4B1j-mUyT1NphbszBDPB2RiKsOUyRnAg.JPEG/LOVE_EXPIRY.JPG",
+                url: "6",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjcw/MDAxNzEwMDY3OTMxNzg4.J6obQF8zSM9OAtd8Iy0EuiH_XrpsE-LuXdr1zx_NC28g.0hkqtZaCm7nbx4tWDc3UwDD22n44YW0gh1bSXoKSXGQg.JPEG/PeachyBomb_01.jpg",
+                url: "7",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjg3/MDAxNzEwMDY3OTMxNTIz.ju65_PI_6I9n0gwHdQPtfXfr-rAnBpnWI1i488wodfAg.6leLN9MRpHFiYVqzrOf7DziKsInP4jcsa5K0kh7ZdY8g.JPEG/PeachyBomb_02.jpg",
+                url: "8",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjE4/MDAxNzEwMDY3OTI2OTMz.1WXUpaD2CqmEnxXqMiEDDEx8ro2zia6TJSyP8zQTYxcg.HQECOpr3Ec8O_78UxPhElPQVXErxVBBIur40y9QkRl0g.JPEG/PeachyBomb_03.jpg",
+                url: "9",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjMx/MDAxNzEwMDY3OTUwMDE5.nxt_aFKOI-OeqmEj0xGFAjsishsRaKeeOWPubyrwdhkg.qtvHTOajMLqGpQPtF5hWaxSNRhaPoCNYJBww1rwvlGMg.JPEG/REVEUSE.jpg",
+                url: "10",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjg0/MDAxNzEwMDY3OTg5MzYx.NF5Zy-Qbs0oLWYl-m5L6DUCfv6QcojPfo4iTr2Ju3Kgg.xC7WP3nolo6P4ZUbfn1BXtkbu13-rgti0tJGr7I_r18g.PNG/somnium_%ED%8F%AC%EC%8A%A4%ED%84%B0.png",
+                url: "11",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTc0/MDAxNzEwMDY3OTM1Mzkz.xAn60UBcXWptMJ3AcsT7ka2SPQMh23Hwdto_8es30AUg.d9Zrvvhc5JSjDWaldgGsvlXUyd6gLbMhPm6U1UCSuugg.JPEG/Take_it_medicine.jpg",
+                url: "12",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTU0/MDAxNzEwMDY4MDI4MDQy.r0qRelzTiTUMK6vAS6dMwCF0yb9PhJJekBCWTuG1JnUg.b8zjxnFSyyUBL9-iPjWUH3MB-Yxj39PdofNk0Qer2uIg.JPEG/THE_INEVITABLE_DESTINY.jpg",
+                url: "13",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjM5/MDAxNzEwMDY3OTU0Njkw.yqQVkR_nm2rX4Lr5hcR78NAzDoq5wovIytL6UCNUwKYg.JJ4Soi6HqQCNU3d2-bnMB-K4KucVa4uKeozQqpq7Z3og.PNG/THEIA_%EA%B0%90%EC%A0%95_%EC%8B%AC%EB%B3%BC_%EC%8B%9C%EC%8A%A4%ED%85%9C.png",
+                url: "14",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjY1/MDAxNzEwMDY4MDg2NjEz.81YNFiN060WVZ4YeO-0vhhm2pz6uy66ymnTREqbIt2Ag.UwYpCuUOUkiADxkSuyTOEUSNNkeUSajJoeIHi-Iwzukg.PNG/UP_THERE.PNG",
+                url: "15",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMzgg/MDAxNzEwMDY4MjkxOTE2.fxncl7khVXat9NlYTIiOYQqyDgVL6JCwng2zT-0c8RMg.IDMD9cmbL1tYhOIHzprFc8Cq4Mq77aJuP3bv7xT0zTAg.JPEG/Eureka.jpg",
+                url: "16",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTUw/MDAxNzEwMDY4Mjk4NzM2.eOzCmQCD_i9aCIqvw-XpExuW4QopeufArGXnYkfsXycg.e9ObfGXVRv6RCJTFHBQsJED1Z7MTytVrqb7Vz969IKUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png",
+                url: "17",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTAg/MDAxNzEwMDY4Mjg4MDc4.UaNxcr9amlJH4qOFC3-x8x6iM3YkJlrk_FpbyegXwWkg.KB8PgPl4-ooFuGXqR_pbe5rSNhszw3IEiJj5M_6WxWUg.JPEG/%EC%98%A4%EC%A7%80%ED%9B%84_1_%EC%84%B1%EC%88%98%EC%97%AD.jpg",
+                url: "18",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMzcg/MDAxNzEwMDY4MjgyOTA4.vbmQ4Uc0VBIhf-ErRU3elUpxIUtIg8ihIT4lxQgedYYg.3GE9fD-iwifYjt6lS2zJdgOtEOMuQZ4BC4SdRUBVSMIg.JPEG/%EC%98%A4%EC%A7%80%ED%9B%84_1_Glass_Flower.jpg",
+                url: "19",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTQx/MDAxNzEwMDY4MjkzNDQz.IdRR1wp2rRsPegLUiJYzuZRQJQVDe5FpGNIM4lqfKIkg.Sdp5ueo8vN6T1lLU0nTMTuROBMpgwMZHTaU-_3Pm5h8g.JPEG/%EC%98%A4%EC%A7%80%ED%9B%84_1_Lipstick.jpg",
+                url: "20",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMzkg/MDAxNzEwMDY4MjgzMTI1.gqJ3YCTDVP9gDFpg8UNPCvkbiJqxToKnrxveI7mTb68g.wQfBuettZITNJlgBRCaXkW9uIxQqqcWJK3XV8tsKtGYg.JPEG/%EC%98%A4%EC%A7%80%ED%9B%84_1_SOAP.jpg",
+                url: "21",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTg1/MDAxNzEwMDY4MzAyMDQ0.sRqiusIImSpbXAXME6XjtHqkrcxf0tw8dIbwcehWr8Ug.NhQPc7GNZ126SGwWSD8P75izO2SF0J_u1mN9JIXi-p8g.PNG/%ED%95%98%EC%88%98%EA%B5%AC_1.png",
+                url: "22",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfOTMg/MDAxNzEwMDY4Mjg4Nzk5.KI6z6IdNkhINnW4EFwEUIIDoK8A4RjvqgjeD5y8are0g.ZVJTXS6KDDsZDLJmVFSxnYYMHl42RL1S1mHgP8gdwxkg.JPEG/%ED%95%B4_SUN_%EB%8C%80%EC%A7%80_1.jpg",
+                url: "23",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjA2/MDAxNzEwMDY4MjkxMDE0._1qTQdHvUjpfDeO-s7dfNAN4MaimNeSE621zNE-2x90g.8uYdOnGCniS9ryik0Ugox2jhVI6-9djXsF9P5NkkmJwg.JPEG/AMBITION.jpg",
+                url: "24",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTY2/MDAxNzEwMDY4MzAwOTM4.1Vu27Tz4eIr3nGTwRqtmF5utFJH5EiILoznQsChw9OUg.YeA6ERQgzIVhZ5OLYi4mGAS_oUdUSnkM_sIjqp63_ukg.PNG/blond.png",
+                url: "25",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjg5/MDAxNzEwMDY4MzAxMzU0.KF-gTdg06buXn8B-lmpbdm_AVlFiKsE2obcVj7LfWkAg.qH6zle0yOl3lYg0EuxJZvNLu3zGiRrZGZpc4RhRKwJ8g.JPEG/Clover_Poster.jpg",
+                url: "26",
                 isVideo: false,
             },
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjUg/MDAxNzEwMDY4Mjk3NzQx.4JNb1ZBN8gCiRdAVYC4LnWWTBJEiPBFNsMDrGYgTAKAg.QsmybCCeh7Q28OcszNT1wLW8coERv98T3EavtxfgmFcg.JPEG/Colorful.jpg",
+                url: "27",
+                isVideo: false,
+            },
+            {
+                url: "28",
                 isVideo: false,
             },
         ]
@@ -233,38 +237,40 @@ const clubInfo: ClubInfo[] = [
         ],
         gallery: [
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNTMg/MDAxNzEwMDgxMjQ1MDI1.wjFwefqUc61aB7J2737LpBDNXjfKbBrTRe8CEAqAeXAg.-vje2liexsshY04qmRZ2xQt8OUjpcxAq-AinkbiUkLwg.PNG/%EA%B0%9C%EC%9D%B8%EC%9E%91(%EC%9C%A4%EC%A7%80%EC%97%B0)_(1).png",
-                isVideo: false,
-            },
-			{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjI3/MDAxNzEwMDgxMjQ1NTA4.mufKjrtcL-4W-6MFUERNQ1usKk6lDrfMtqCF-6t5vQIg.8FnrIH8JPSHHj39Z3VeaEw7jNyK4_8UhhpDiFq4_eoIg.PNG/2023%EA%B7%B8%EB%9E%98%ED%94%BD%EA%B3%B5%EB%AA%A8%EC%A0%84_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%B6%80%EB%AC%B8_%EB%8F%99%EC%83%81(%EC%9C%A4%EC%A7%80%EC%97%B0).png",
+                url: "1",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTMx/MDAxNzEwMDgxMjQ0NjE4.xJEJCihmlY2Jr4dmG9I1SP3Z6Lc_l4wgr01YxNCFIicg.tB1x4Q7Eqnqj6VRXA0AZIoP8CMz4hMPpUA437vZsld0g.JPEG/2023%EB%8F%99%EC%95%84%EB%A6%AC%EC%A0%84%EC%8B%9C%ED%9A%8C(%EA%B9%80%ED%95%9C%EB%B9%84).jpg",
+                url: "2",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNDUg/MDAxNzEwMDgxMjQ0NTY5.-TSTNH5HFgcfSOMr-MH1INiTz2-2K9WL3gMV7mtIjpsg.cDlJCc97LdwYJfLgMlI8GH1JJT37SIV8GGMyQLvJWtwg.JPEG/2023%EB%8F%99%EC%95%84%EB%A6%AC%EC%A0%84%EC%8B%9C%ED%9A%8C(%EC%9C%A0%ED%98%B8%EB%B9%88).jpg",
+                url: "3",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMTI4/MDAxNzEwMDgxMjQ0NjQ0.4VVQyhsHAbIRlquczrVtHTFLQ8EngIZtiljqzDEHxc8g.qbEfnq-iraQ76_wTW3gZmfK-oIhsmhuovUVShmpSujMg.JPEG/2023%EB%8F%99%EC%95%84%EB%A6%AC%EC%A0%84%EC%8B%9C%ED%9A%8C(%EC%A0%95%EC%84%A0%EC%9E%AC).jpg",
+                url: "4",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjIx/MDAxNzEwMDgxMjQ1MDE1.TsofH4xAZpsYSEIkwye5weNcwu2uu7pxil2M_yTjjSUg.ALFSPrYWE31OJoSPHRAcNS3KwY7NbW8h4EKFweKm0Mkg.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EB%8F%99%EC%83%81(%EA%B9%80%ED%95%9C%EB%B9%84).jpg",
+                url: "5",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjAw/MDAxNzEwMDgxMjQ1ODk0.jH1VE7HkE_G1y0baYIALx3l4bTIXGvEB4dSXNMNKsBYg.7IKKNhsCaMOahWJpc_3mLXPUgysPZQhu4C62Rqnjm_gg.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EB%8F%99%EC%83%81(%EA%B9%80%ED%95%B4%EC%9C%A4).jpg",
+                url: "6",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjk1/MDAxNzEwMDgxMjQ2NDM4.QvpewQnP5Yi6U03idjX5dfcxjRWY1jX5GPjRgvn8XRMg.9K2GW98cBQrR23h5yOwqTU-fPQ5APaShxHqoOxO3uQQg.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EC%9D%80%EC%83%81(%EB%B0%95%EB%AF%BC%EC%84%B1).jpg",
+                url: "7",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMjE4/MDAxNzEwMDgxMjQ3Mjg0.KAHQf_-RtmpKEZD-Ht5753eERuCuT2eX18MHLYjkZyEg._9J5NugPJYQQl9USsd4M1C7z0_QOfsUBaYjkB13y4I0g.JPEG/2023%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B3%B5%EB%AA%A8%EC%A0%84_%EC%9D%80%EC%83%81(%EC%A0%95%EC%84%A0%EC%9E%AC).jpg",
+                url: "8",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfNTYg/MDAxNzEwMDgxMjQ2NjY1.j8qHQ0-YMemYoOb8VJe5VrPyJG_Iz-4vw7-yVQmD9VEg.x7cxog3BWE9TE8ps9pXbMXWf5iBn85xi9zFX4Bm2YhIg.PNG/%EA%B0%9C%EC%9D%B8%EC%9E%91(%EB%B0%95%EC%84%B8%ED%99%98).png",
+                url: "9",
                 isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTBfMzAw/MDAxNzEwMDgxMjQ3Mzc1.ZijLtLFz3VvFJNHBJb2orJnuaPGq3ck4nBl5IjR8xUog.fB1nNkLdFA7teJrTD_scbMluFU8gjjZR0ca1dncMnMog.PNG/%EA%B0%9C%EC%9D%B8%EC%9E%91(%EC%9C%A4%EC%A7%80%EC%97%B0)_(2).png",
+                url: "10",
+                isVideo: false,
+            },{
+                url: "11",
+                isVideo: false,
+            },{
+                url: "12",
                 isVideo: false,
             },
         ]
@@ -407,131 +413,155 @@ const clubInfo: ClubInfo[] = [
                 url: "https://www.youtube.com/embed/4B-haYHCwOE?si=Voo5aDEm4vbdJ4qF",
                 isVideo: true,
             },
-            
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTA1/MDAxNzEwMDkyMDg0NzYy.hyEGgakisBK0CGTPfagSs37WeYvacIKgBLFX1wEYnDog.e4u-M_Auj6f-DESogN9l_eehXtkpCkX10c0JPcxMNrsg.JPEG/bubbles.jpg",
-				isVideo: false,
+                url: "1",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTA0/MDAxNzEwMDkyMDg0NzYz.L_jIEh2-PrnXx4qFiOf72TfbAUbJGYoU8OLCZArqJHQg.hrfuEt7gccDand2sVC_J2vuKf_60MWcClPcerXaMnWsg.JPEG/christ_hemsworth.jpg",
-				isVideo: false,
+                url: "2",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjE1/MDAxNzEwMDkyMDg0ODI2.VVCwaUdjAtP0-vaqzEm1xkfef64vkiL7gFbW-ZBRhCQg.ZpBMNpZBkANbV1D7Y3NQGKHt5UZakwZXEdRhjisdSUEg.JPEG/v.friends.jpg",
-				isVideo: false,
+                url: "3",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNzIg/MDAxNzEwMDkyMDg1NjEw.G-5M4ijLJR6t-2pvN-tPzmcN58UOS7rjPj9Cuj9RpU8g.9SRampCVjmXTVb26TqrxXX8hrDKNRURs8WxbHeEaPd0g.JPEG/%EB%94%B0%EB%9C%BB%ED%95%9C_%EA%B2%A8%EC%9A%B8.jpg",
-				isVideo: false,
+                url: "4",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjI5/MDAxNzEwMDkyMTAxNjY0.DbXmbuz5jcKlchu3ND2nuavbYq_kT81SgvlZJr6ao5Ig.7kk3aewRDjiXRiArqulN-FTgY6bj_HmWSRyqamQopesg.PNG/%EB%93%B1%EB%8C%80.png",
-				isVideo: false,
+                url: "5",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjc1/MDAxNzEwMDkyMTAxNDA2._cyE6oeEXQeKVmXzlPN8i_hgnF6psX95gaFDL2WD-okg.-WKYhBaGTvpn8YdDZW6xYqRpAy30RhPiUJOXneF4auMg.PNG/%ED%94%84%EB%A0%88%EB%94%94%EC%9D%98_%ED%94%BC%EC%9E%90%EA%B0%80%EA%B2%8C_1.png",
-				isVideo: false,
+                url: "6",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTA3/MDAxNzEwMDkyMTAxNjY3.fphoyalBgvWTDYsRedLVjiMMpAEBprZDT7vDa5TZrdIg.ZskzFDAX49XgrcwVl4-kDsu7Fz_Bpd0sqtfBtAB_iUAg.PNG/%ED%94%84%EB%A0%88%EB%94%94%EC%9D%98_%ED%94%BC%EC%9E%90%EA%B0%80%EA%B2%8C2.png",
-				isVideo: false,
+                url: "7",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTE3/MDAxNzEwMDkyMTAxNjM0.oCH0hRMWOrihOmF-IB0weqUUpcYle37-EZO3S92DuhAg.aMOoex9tc2MceWvfFOFnYbTfal9PT-N06d2DaX-lQeYg.PNG/%ED%95%B8%EB%93%9C%ED%8F%B0.png",
-				isVideo: false,
+                url: "8",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjgx/MDAxNzEwMDkyMTA5MTcx.O31Vu8DTpiaSlXDd20Aimhl11bGBr9rA10m_xNyKC1Mg.dLKz9R3R115dkwuTLOXFVJn-x0y_rokkejTmYZwt4Qsg.JPEG/%EA%B0%80%EC%9D%84.jpg",
-				isVideo: false,
+                url: "9",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNDQg/MDAxNzEwMDkyMTA5NDMy.fgrKpU_Xk7cN4uFmT0qkt_IW4kNVqPmqVToUBx_LuAYg.QhcE3cQcAC7IkI2sxzTNvN9NY7mwiXqFRIHhfd-Rntgg.PNG/%EB%85%B8%EC%9D%84.png",
-				isVideo: false,
+                url: "10",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYx/MDAxNzEwMDkyMTA5MDM5.oHsTiwxbS-cV1SVbGcnceV3kNuj75bAaKIJxLziqqUEg.UPQeKk5oUWGT41TcnDr1gnpv0ARpaLSCPLdCdfwm4qcg.PNG/%EB%94%B8%EA%B8%B0_%ED%83%95%ED%9B%84%EB%A3%A8.png",
-				isVideo: false,
+                url: "11",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTYy/MDAxNzEwMDkyMTEwMDg1.Jb-Enr7mvzUkV-NsVY2nd0eJKoXmq4Du1146hbdoVowg.XnAwtAKNpW1JMCEAeTyz98uUAjMACDTjnHxDG5rFjn4g.PNG/%EB%B0%94%EB%8B%A4_%EC%B6%98%EC%8B%9D%EC%9D%B4.png",
-				isVideo: false,
+                url: "12",
+                isVideo: false,
+            },
+            {
+                url: "13",
+                isVideo: false,
+            },
+            {
+                url: "14",
+                isVideo: false,
+            },
+            {
+                url: "15",
+                isVideo: false,
+            },
+            {
+                url: "16",
+                isVideo: false,
+            },
+            {
+                url: "17",
+                isVideo: false,
+            },
+            {
+                url: "18",
+                isVideo: false,
+            },
+            {
+                url: "19",
+                isVideo: false,
+            },
+            {
+                url: "20",
+                isVideo: false,
+            },
+            {
+                url: "21",
+                isVideo: false,
+            },
+            {
+                url: "22",
+                isVideo: false,
+            },
+            {
+                url: "23",
+                isVideo: false,
+            },
+            {
+                url: "24",
+                isVideo: false,
+            },
+            {
+                url: "25",
+                isVideo: false,
+            },
+            {
+                url: "26",
+                isVideo: false,
+            },
+            {
+                url: "27",
+                isVideo: false,
+            },
+            {
+                url: "28",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTk3/MDAxNzEwMDkyMTA5MTEx.R7iqMcshPHJx08KgDUymqw868ZJMKrWmKSB3gSF8944g.3331NGM4-7m44R0YGyube7NrkD6RxT_bSFr0aKiOnAIg.PNG/%EC%9E%90%ED%8C%90%EA%B8%B0.png",
-				isVideo: false,
+                url: "29",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTQg/MDAxNzEwMDkyMTA4OTU0.zuLzxt6NbdR5UM7ChPAiiCFGHxIXYveET-p5y82hrYog.7mVLFrjEfSmIvB3ChhcVy3MYQzfNy8c_25MPHWgG-ygg.PNG/%EC%B6%98%EC%8B%9D%EC%9D%B4.png",
-				isVideo: false,
+                url: "30",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk1/MDAxNzEwMDkyMTM5NTg5.76y_LJpolOwGurUVMgmfnUCL0oMrbPQFb-an-PlYrCUg.zY8yhB_7ExWHdNrxnhIlnPUo2pY7I4t1G2UEblKHpBIg.JPEG/TRAVEL_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
-				isVideo: false,
+                url: "31",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTg3/MDAxNzEwMDkyMTM5ODQ4.vc9qNVEI_nfR00lD0apa1wVC8B6oskSiTZVrc0n3DXMg.8TKR47cj8iDwmnQLY6Nqxpo-9P_M9J-w6CH-SbCLQpkg.JPEG/%ED%99%98%EA%B2%BD_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
-				isVideo: false,
+                url: "32",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjMz/MDAxNzEwMDkyMTYyMDk4.Fvcjv9puO0wOcxRdf9vVby-_RdLMjNsrxLcSf1tXpUUg.9es9yrY05RCnHqJilyR9Uyw5_Xg4fDWFLauvNN7054gg.PNG/%EC%9C%84%ED%82%A4%ED%8E%AB.png",
-				isVideo: false,
+                url: "33",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfODAg/MDAxNzEwMDkyMTYyMDYx.Z8u8sgmlospYqL1rIKflHRaeyggS6rMSze9WmB0Wk3Yg.9yzsOxxwvYeOI7YOlEZU1RiwVQlimjOvBU3Uwvq5Mucg.JPEG/%EC%BD%94%EC%BD%94%ED%8C%9C_%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8.jpg",
-				isVideo: false,
+                url: "34",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjU5/MDAxNzEwMDkyMTc0ODc4.Xt37uTJpzoRcNXiB94OUJ2onexPxtaQKthv4zvg7b2Ag.7GYL5NGB4YbET1AQWdoXfbgH6uCzQPz80le0x-EL9Uwg.PNG/3D_%ED%86%A0%EA%B9%BD%EC%9D%B4.png",
-				isVideo: false,
+                url: "35",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk2/MDAxNzEwMDkyMTc0NjQw.CUU8Lg5ivdASSPq6ZoI7FmuT6GrcCQ4cAGs_mz_slL4g.duJFFA7tafM0-dSw9u3Rm3sHDgCFPPYrrNc-KuERRogg.PNG/CD_IN.png",
-				isVideo: false,
+                url: "36",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTQx/MDAxNzEwMDkyMTgzMzQ2.OZzHoa5RGrLk9fM39bPPg0h9m-3-XAXsJBW7d-YSnkUg.lUenZyyayllNRo4uZZs6Cwz0yv0kPeQ0VUZI_ugSINQg.PNG/%EB%B0%A9_%EC%95%88.png",
-				isVideo: false,
+                url: "37",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNzUg/MDAxNzEwMDkyMTgzNjc0.ZDHyDNml9rfE5f12sZk-I0l6pWATFpvXgqDZa0EAVZ0g.SdyolwzN3eatxWtrX6i07tiS5moC-egOLVDJgbi2y9Ag.PNG/%EC%B1%85%EA%B3%BC_%EC%BB%A4%ED%94%BC.png",
-				isVideo: false,
+                url: "38",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjM3/MDAxNzEwMDkyMTgzMjM1._ULv0Z7a5CMPitxntvNrgcvllOFEjG1WQNrcPbAJ8fcg.w0-DgPlXeH4TpkGCYx6c2IYHo4h9a4A7XsYMatPKgGUg.PNG/%EC%BB%A4%ED%94%BC.png",
-				isVideo: false,
+                url: "39",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjAx/MDAxNzEwMDkyMTkzMTcx.4HslNHyhuSGiCeecJsVmKjdqACIuuCFne35rx_6VVAEg.ITzo9dvJWMF3MU9wxDlZXkrSTW7dVe1-JeufDIa9GcMg.PNG/2023_%EB%8F%99%EC%95%84%EB%A6%AC_%EC%A0%84%EC%8B%9C%ED%9A%8C_%EB%A9%94%EC%9D%B8%ED%8F%AC%EC%8A%A4%ED%84%B0.png",
-				isVideo: false,
+                url: "40",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNjgg/MDAxNzEwMDkyMTkzMzM3.yGFJn4R6lxn9ou7aav0OUMxSWJ3K_csNi_XCKHY0vRcg.19YLfE1mVJQ7Ne_F4C1nG2AfYlkUh3lbdK3KhfAvhsAg.PNG/%EB%AA%BB%EB%82%9C%EC%9D%B4_%EC%9D%8C%EB%A3%8C.png",
-				isVideo: false,
+                url: "41",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk4/MDAxNzEwMDkyMTkzMzE1.mhveCc7x6N8Co_mBiVkG1gtCIwlb3byFAp2ML3cv4rkg.Ba85lB4nnOM5dVnAZ-jSufGE2G9kTIjgLW6lTfLz0P0g.PNG/%EC%84%A0%EB%83%A5%EC%9D%B4.png",
-				isVideo: false,
+                url: "42",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNTcg/MDAxNzEwMDkyMTk0Mjcz.0GyeC3WWez2BFN9sRzm9-6WuI0zzRt2g1xYbbbhtNSMg.Z0q1ki2Z1T6rvwNYayAj2ofwQxU09yoeSvdg1CSoPCsg.PNG/%EC%86%8C%EB%8B%A4.png",
-				isVideo: false,
+                url: "43",
+                isVideo: false,
             },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTcw/MDAxNzEwMDkyMTkzMTQy.O9fF2vBO8cBQVZB5FOIIovsAmScTjdseVm1XwqQkargg.jsMfVIkB3PtDneGJJ8pEHQ5ZVW1N_vWiASJxI3nMhZQg.PNG/%EC%95%84%EB%B2%A8.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTcg/MDAxNzEwMDkyMTk0Mjgx.jw4UPLrXTVXcMzyIXrARbRnZ_pCFa2rBu59EPXja6HEg.qiaohSofhh5_pULqpoa-4Uuoj-m43Lt1Wbh0jfp54zUg.PNG/%EC%95%84%EC%9D%B4%EB%A6%AC%EC%8A%A4.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTU0/MDAxNzEwMDkyMjQ1OTA3.pH1pOegcR_BWVE--H9YfpH7DRHqjU6Dywz0JtCXVhg8g.mNUY8d3WNvNCfouKzMharp_rg3Jlkjs717I66LZA2eMg.PNG/2023_Happy_New_Year.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNyAg/MDAxNzEwMDkyMjQ1OTk2.VJIzAeiTJY_Y11grWsQmWTdj2_ypq5CKIsNdVdhhcD8g.l68Sc9R9dcd4KfSuIRY9JQd6aBvWPJV0YyjiZ7jAcFwg.JPEG/Neoul_A1_1.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNTUg/MDAxNzEwMDkyMjQ1Nzk4.amp1wMy57K7lQxQM_JoRoQC4tMA1fFhyx8WvGoX86OQg.YAqj2C1rvEiPXyGLbIUcmneDK1vuYyDCQoqIRgqwx_8g.JPEG/Neoul_A1_2.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjgg/MDAxNzEwMDkyMjQ1NDI2.mtOX4yftDnGrxwLPoCFXiTO-4HSVmnYZzqM6vNJDjqAg.2M6UKtAwP0KhhpHnBDesP-2oRP0ERRKfVoSwfJY2_oUg.JPEG/%EA%B2%BD%EB%82%A8_%EA%B3%B5%EB%AA%A8%EC%A0%841.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYw/MDAxNzEwMDkyMjQ1Mzc3.bui6Z2JZhu8IcMt2npx0WzJAxqLPAlaiY_UC1OWrG9Ig.zj_qAHjhqVpfP9iQrlcswcWU7494gJ1mUec6eofXFlwg.JPEG/%EA%B2%BD%EB%82%A8_%EA%B3%B5%EB%AA%A8%EC%A0%842.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTIz/MDAxNzEwMDkyMjQ1OTA1.4OYNoKmamJQh6YlPmFOwKjz9KokfphGp3YKt_rpsrRgg.8FJxkxz6uNqcarVYPUkaLzQmVKWulHkPxsH78qbpsXgg.JPEG/%EB%86%80%EB%A9%8D%EB%8F%84%EC%84%9C%EA%B4%801.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYx/MDAxNzEwMDkyMjQ3MTE4.ZH0rAz5rRZLWAl5qn2qDB_UH4UxWYL4b7qqd6ifCn5Yg.E5BvV1N0Z9s4UZI8hzaawggVlVNAHm4Ht1R2u5gAjoog.JPEG/%EB%86%80%EB%A9%8D%EB%8F%84%EC%84%9C%EA%B4%802.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTAw/MDAxNzEwMDkyMjQ3MzY3.XKSNCSylBqlVLN2-hFRHHTyBnStKyu6oxQJ3N6sW8Jog.2MhQKCAS3XTIUqn1ZCAmAwlJbwP2IpKD6CVYmre0ycQg.JPEG/%EB%B0%80%ED%82%A41.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjUw/MDAxNzEwMDkyMjQ3ODU3.X-D9wPSK_NOI5DBRjZ4nugrPK1KEy6icv3FO907fhcIg.YlqX9GPybB3UMy6ST13imJ79zvk5UYdjannrYvk2S30g.JPEG/%EB%B0%80%ED%82%A42.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTEg/MDAxNzEwMDkyMjk4MjEy.W2po2kQwhebi5gOyAsJOin-Iy4WVMPQBktpvaudCutIg.-Kb91PaMvSqXHtOQyj8g3n7KY6lPSMuhg7HyEUu_r0Qg.JPEG/%EB%B2%A0%EB%86%88.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjAg/MDAxNzEwMDkyMjk4MjEx.21wB8mAJcRchP4oIyp9--PIRahWJXn8H1Ycp0WZTm6Yg.NPBFO1pYLklFtWLL4dZIhNDDCV3Qo2A3_Sk5UJCo5vEg.JPEG/%ED%85%80%EB%B8%94%EB%9F%AC.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjcw/MDAxNzEwMDkyMjk4Mjc4.xeYUx_luqCpX0-WX45YtiA_UixX2ezd_M-wOiMtj-OIg.-5gzi9p7BRo0ZsWrK332fVhTpruOY5qdN4pvwCdN6Q8g.JPEG/%ED%9E%88%EB%93%9C%EB%9D%BC%EB%A6%AC%EC%8A%A4%ED%81%AC.jpg",
-				isVideo: false,
-            }
+                url: "44",
+                isVideo: false,
+            },
         ]
     },
     {
@@ -585,55 +615,57 @@ const clubInfo: ClubInfo[] = [
         ],
         gallery: [
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNTkg/MDAxNzEwMDkzMDIyMTg0.CMkeqQdEHGeLUk2ksuFj7S4Vn449u0H9j0ZfzCnFEuEg.-fpRz_f_s3cAuZW9zOYj1aidNXOOBIaIQVKz7bz31uQg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8405.jpg",
-				isVideo: false,
+                url: "1",
+                isVideo: false,
+            },{
+                url: "2",
+                isVideo: false,
+            },{
+                url: "3",
+                isVideo: false,
+            },{
+                url: "4",
+                isVideo: false,
+            },{
+                url: "5",
+                isVideo: false,
+            },{
+                url: "6",
+                isVideo: false,
+            },{
+                url: "7",
+                isVideo: false,
+            },{
+                url: "8",
+                isVideo: false,
+            },{
+                url: "9",
+                isVideo: false,
+            },{
+                url: "10",
+                isVideo: false,
+            },{
+                url: "11",
+                isVideo: false,
+            },{
+                url: "12",
+                isVideo: false,
             },
-			{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTEw/MDAxNzEwMDkzMDIyMTk2.e3MOEB-yYqQI7gSpYj3QmID3CuZioPASiCYRoK4t_lQg.Rm7JVpLCQPHnUJx-JiwDZSp4G4f28pjI61H1dj422Y0g.JPEG/%EC%A1%B0%EC%97%B0%EC%A7%8401.jpg",
-				isVideo: false,
+            {
+                url: "13",
+                isVideo: false,
             },
-			{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMzQg/MDAxNzEwMDkzMDIyMTc3.FdBhf79eOaZ9R5TNj-R0rkOY_fMukBGIbhUsBNO6_wAg.Ctb4mcvcx3c-5AeDLdhvZGi0v18Ssk5qJHdoVgd9U-0g.JPEG/%EC%A1%B0%EC%97%B0%EC%A7%8402.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfOCAg/MDAxNzEwMDkzMDIyMTc0.S0X2qe3Q2E_7oR0YMfIDcnVS0dgTcssR9W7ZAiQo8Hog.b47ggkCQm_yFkYrXsQ4Tt3LauqjCXGDGFU6grz5zX0wg.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8403.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTg3/MDAxNzEwMDkzMDIyMTg1.ECePACr7yv8JPLMDFz8_hQgUKotfL2wnSxFBILYq9dsg.5UfHkg4uO8DVpiJHPZoyMjhgAz1viqGALALVmTSvuX0g.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8404.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjIw/MDAxNzEwMDkzMDIyNDQx.JeYRfHISOj66o9-Sda5rXiiJD8Ldcn3SD87D4NgsNFQg.cbbHC3cMSLpknZEQZA7Es5MLpcIeqQbkAtC3pMRkw9gg.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8405.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjk4/MDAxNzEwMDkzMDIyMTkw.MQcS6p11EybERqlOmWpQaNhE5cpLbmPoUMO2amm8RZ4g.y_SAhKyikuk2R1zdFZ6Y0pIXmMi8MgyrmfJb8MN0-kQg.PNG/%EC%A1%B0%EC%97%B0%EC%A7%8406.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjI5/MDAxNzEwMDkzMDIyNDQ3.iNndFpAwjaHPXpHw-5tOdvBBywv7m3A_FCM6ZK7QACcg.HkvukuSEsNdtsd2_vOsYHSJ8VbgqwMgo-2bz0AXCRdwg.JPEG/%EC%B0%A8%EC%9C%A4%EC%8A%AC01.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTc1/MDAxNzEwMDkzMDIyNDUx.mqIXLhOxz3nDyrmBD7at0t8W9yzDE4tgFpyt2RKkVfkg.M4HpfNa16Udf0jZnT4abBKPLqjQ88skYX-wXj1uE0pUg.JPEG/%EC%B0%A8%EC%9C%A4%EC%8A%AC02.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjQ1/MDAxNzEwMDkzMDIyNzA3.OCHNu1QddtyJqPxV9C0Xy1o9ma_lxm_iaW7MFyPNedYg.15sRJ9oyRXXeSHRgiF4rby7erSBh0xqz73z9kUtlHxMg.PNG/%EC%84%9C%EC%9D%B4%EC%A4%80%EB%A3%A8%ED%95%9801.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTQ5/MDAxNzEwMDkzMDIyNjQ5.9KfS06HVcs3ZgpjoQmMfrRIa3rkdlfsgINsQhDe6NqMg.z6dYfZ4Q_7Nxqus37I3zBX0KEYJli7Gnjbn2ZQ_I8qIg.PNG/%EC%84%9C%EC%9D%B4%EC%A4%80%EB%A3%A8%ED%95%9802.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTMx/MDAxNzEwMDkzMDIyODI3.Y4mBGXr1MMj2UQU4GbQwjpjUIPQQ4Xm5cKYwpUFI84og.bWaU7f8WdZTcwyDGcfyzzl2kYN5ApcZ0jpHuu9oAgBog.PNG/%EC%84%9C%EC%9D%B4%EC%A4%80%EB%A3%A8%ED%95%9803.png",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjUz/MDAxNzEwMDkzMDIyNzE1.aw4vUTEYDomBt0WgWTzxFsyfZT30UwQHEC6yFGIv5kIg.m0972Ex9gQKxX_hwzGI1IPaWsy-A7JBWaA9fMqCjiCcg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8401.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMTUg/MDAxNzEwMDkzMDIyOTIx.5OPp-QI72q05x2UUShCiSrG5ISAyHzsA0E6Xv5eDgYYg.DYKtBjNy24J3PKTq_7pzaF1YYSPwQI66CBLXKoziVJQg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8402.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfMjYy/MDAxNzEwMDkzMDIyOTYw.izUFFd3iobziUzg5rlXsbnHu3G_Oh4U45NtLELVuz7gg.Nm4h6yC-ospZEZzqoTqIcVgJ2WRQu2Yry1jkBEmOQ1Qg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8403.jpg",
-				isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTFfNDIg/MDAxNzEwMDkzMDIyOTgx.d4NKQd4vnoeyTeV8Lu2BI_QlBDvKdSuBCAvszIRHzB4g.x1-T3Cm7HKLzZC4hzfsFuvdLsCGNfhDPZUZcii-6VeYg.JPEG/%EC%9C%A4%EC%86%8C%ED%98%8404.jpg",
-				isVideo: false,
+            {
+                url: "14",
+                isVideo: false,
+            },
+            {
+                url: "15",
+                isVideo: false,
+            },
+            {
+                url: "16",
+                isVideo: false,
             },
         ]
     },
@@ -730,39 +762,39 @@ const clubInfo: ClubInfo[] = [
         ],
         gallery: [
             {
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTI2/MDAxNzEwMjg2ODEyNzE3.-a93GSHKfC5-4avOWmb18iIk5dcEQERxfPd8dDykAr0g.X4yl3bUTTpl-ZKrTeTP5kzcHNM_WkUlzIo-OcHNeCUMg.PNG/1_.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTM2/MDAxNzEwMjg2ODEyNzUz.2mNBGiMSBGTowK6POSAgoAS2viT8rv3zxC6Mfl95HWgg.JhxIMNmebPH4o0bX3xWX6PmrHPBb5VUWJi8high8eQEg.PNG/62ab4bc7e7fb9a0c.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfOTMg/MDAxNzEwMjg2ODEyNzMw.MxnCTjXmLdJX2oTCG-lUtzZ0IGxvFItD3qn7stJAx9Ig.am1CGM2RipZaq3s3GT6f_H9w4UOUza0qasdz8G7CtTog.PNG/179ad7af7d40a66a.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTc0/MDAxNzEwMjg2ODEyNzI1.jI2lX38QZ8l4ZHSMQ8Vwg81QoIeP1GhbeRYfo1Gemgcg.LtLM1OtiQmTsaeBo_Mdjl7EwmLwbpzDW0leervqu6V4g.PNG/893a3dda4b9eb7ee.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfNTUg/MDAxNzEwMjg2ODEyNzUy.4YA2s7aldRhBXvK3y_9VCuej7UIw8WcMxK8mJoGbmGsg.9ZKpBpQb_jAjcH5DQlaBzYnyXxFyR5k4SaYdxpu0z0wg.PNG/b052e7f7cbf9f843.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTA5/MDAxNzEwMjg2ODEzMTc3.rDfqoSO2cxqZCgasiNj7upgPnIRnIEbBSMZTVieb_4Eg.1twIhYhysp716P1VYG8fymqpcdutHI-4dusqIWS2z18g.PNG/Clean_House_.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMjQg/MDAxNzEwMjg2ODEyNzMx.sWwJD1899S9XV1VHGgjPR7KaY3vmWrxvH0U43E_3Yxwg.hB7T413Ia4nJPZfYeBf7YdwkESvKktz8Z7B259z7kFQg.PNG/d8155d941f1e1d6f.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTEz/MDAxNzEwMjg2ODEzMzA1.dTKPzYxigmp82088Q3iRoRDni0neW9518WTG8sow-KMg.911HqFAEH7F8Ezi9xhgpfgIZbVUc0CIMOQ1Z2dob_1Ig.PNG/LILAG_.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTI5/MDAxNzEwMjg2ODEzMjk0.ELObizYXCkxMjLhnA_nVBeh_L-YNCtrWZqrFqTtFl_8g.VCSuDBOh1NXHIAZZjFtNt6YO2_Dy82Qn8ETe2AZuYRog.PNG/LOEDA_.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfNTkg/MDAxNzEwMjg2ODEzMTY4.SOxjVr5oLGOVHahPdqx7bu3ctZshuagGWaYrCJBb-WQg.om9asl5xjuyI02o84iG_HQgAC1ByIi2l0U1HZ_FiHGMg.PNG/MZOY_.png",
-                isVideo: false,
-            },{
-                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMjQw/MDAxNzEwMjg2ODEzOTg3.g8nngM9W0rVqxwRJjigwqQnRnIlZwfooFywDyL0Hy8og.qlU3iuFfjcoXMWtNY6Auo4U8t2MHEswdF5NaoZ3tCMkg.PNG/survirun_.png",
-                isVideo: false,
-            },
+            url: "1",
+            isVideo: false,
+        },{
+            url: "2",
+            isVideo: false,
+        },{
+            url: "3",
+            isVideo: false,
+        },{
+            url: "4",
+            isVideo: false,
+        },{
+            url: "5",
+            isVideo: false,
+        },{
+            url: "6",
+            isVideo: false,
+        },{
+            url: "7",
+            isVideo: false,
+        },{
+            url: "8",
+            isVideo: false,
+        },{
+            url: "9",
+            isVideo: false,
+        },{
+            url: "10",
+            isVideo: false,
+        },{
+            url: "11",
+            isVideo: false,
+        },
         ]
     },
     {
