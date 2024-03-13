@@ -72,6 +72,11 @@ const clubInfo: ClubInfo[] = [
         ],
         gallery: [
             {
+                thumbnail: "https://i.ytimg.com/vi/6t5vJq3dGOw/maxresdefault.jpg",
+                url: "https://www.youtube.com/embed/6t5vJq3dGOw?si=0HvTBLOuIWGPbrcS",
+                isVideo: true,
+            },
+            {
                 thumbnail: "https://i.ytimg.com/vi/KsOK53bQsHU/maxresdefault.jpg",
                 url: "https://www.youtube.com/embed/KsOK53bQsHU?si=I6mh1FK9wFA8Gh5I",
                 isVideo: true,
