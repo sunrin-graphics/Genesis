@@ -15,7 +15,7 @@ const Clubframe = ({ name, shortdesc, department, logo }: ClubFrameProps) => {
     return (
         <ClubBox>
           <ClubLogoBox>
-            <img src={require(`../assets/clubs/${logo}.svg`)} />
+            <img src={require(`../assets/clubs/${logo}.svg`) } height="120"/>
           </ClubLogoBox>
           <ClubConentBox>
             <ClubContentTitleBox>

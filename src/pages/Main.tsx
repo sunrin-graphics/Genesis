@@ -21,6 +21,11 @@ const VideoS = styled(motion.video)`
   width: auto;
   height: 597px;
   margin: 100px 0 100px 0;
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 const Videologo = styled.source`
@@ -42,12 +47,19 @@ const WelcomeTitletext = styled.text`
   color: #000;
   font-size: 46px;
   font-weight: 600;
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+    }
+
 `
 const WelcomeSubtext = styled.text`
   color: #000;
   font-size: 18px;
   line-height: 1.3;
   font-weight: 500;
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+    }
 `
 const ContentDiv = styled.div`
   width: 100%;
@@ -64,6 +76,10 @@ const ContentText = styled.text`
   font-style: normal;
   font-weight: 500;
   line-height: 1.3;
+
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+    }
 `
 function Main() {
   return (
@@ -107,22 +123,24 @@ const VideoCmp: React.FC = () => {
   const updateAtScroll = () => {
     const video = r.current;
     if (video) {
-      video.pause();
       const p = scrollYProgress.get();
-
+      console.log(p);
       video.currentTime = 0;
       if ( p > 0.15) {
-        const currentFrame = Math.round((p-0.15) * video.duration * 1000) / 1000;
+        video.pause();
+        const currentFrame = Math.round((p-0.15) * video.duration * 1200) / 1000;
         video.currentTime = currentFrame;
+        console.log(currentFrame);
       }
     }
   };
   useEffect(() => scrollY.onChange(throttle(updateAtScroll, 80)), []);
   
   return (
-    <VideoS ref={r}>
-      <Videologo src="/videos/genesis.mp4" type="video/mp4"/>
-    </VideoS>
+    <VideoS ref={r} autoPlay>
+  <Videologo src="/videos/genesis.mp4" type="video/mp4"/>
+</VideoS>
+
   );
 };
 
@@ -171,12 +189,22 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1080px) {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
 `
 
 
 const MainImageStyle = styled.img`
   width: 673px;
   height: auto;
+
+
+  @media screen and (max-width: 1080px) {
+        width: 100%;
+    }
 `;
 const TextContainerMain = styled.text`
   position: absolute;
@@ -185,5 +213,9 @@ const TextContainerMain = styled.text`
   font-weight: 600;
   line-height: 1.5;
   text-align: center;
+
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+    }
 
 `

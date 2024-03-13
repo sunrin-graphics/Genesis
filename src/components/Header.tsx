@@ -19,32 +19,40 @@ function Header() {
       <HeaderContainer>
         <HeaderTitle>
           <Link to={"/"}>
-            <Logo />
+
+            <Logoclick><Logo /></Logoclick>
+            
           </Link>
           <ToggleButton onClick={() => setIsToggled(!isToggled)}>
             {isToggled ? <Close /> : <Menu />}
           </ToggleButton>
         </HeaderTitle>
         <HeaderBtnBox isToggled={isToggled}>
-          <Link to={"/"} onClick={() => setIsToggled(!isToggled)}>
+          <Link to={"/"} onClick={() => {
+            window.scrollTo({ top: 0 });
+            setIsToggled(!isToggled)}}>
             <HeaderBtn>
               <HeaderBtnText>시연회 소개</HeaderBtnText>
             </HeaderBtn>
           </Link>
-          <Link to={"/clubs"} onClick={() => setIsToggled(!isToggled)}>
+          <Link to={"/clubs"} onClick={() => {
+            window.scrollTo({ top: 0 });
+            setIsToggled(!isToggled)}}>
             <HeaderBtn>
               <HeaderBtnText>동아리 목록</HeaderBtnText>
             </HeaderBtn>
           </Link>
-          <Link to={"/faq"} onClick={() => setIsToggled(!isToggled)}>
+          <Link to={"/faq"} onClick={() => {
+            window.scrollTo({ top: 0 });
+            setIsToggled(!isToggled)}}>
             <HeaderBtn>
               <HeaderBtnText>FAQ</HeaderBtnText>
             </HeaderBtn>
           </Link>
         </HeaderBtnBox>
         <Snsdiv isToggled={isToggled}>
-          <Sns>Facebook</Sns>
-          <Sns>Instagram</Sns>
+          <Sns href="https://www.facebook.com/sunrin.contents">Facebook</Sns>
+          <Sns href="https://www.instagram.com/sunrin_contents/">Instagram</Sns>
         </Snsdiv>
         <HeaderLinkBtn isToggled={isToggled}>
           지망 폼 작성하기
@@ -57,6 +65,9 @@ function Header() {
 
 export default Header;
 
+const Logoclick = styled.div`
+  cursor: pointer;
+`
 const HeaderContainermid = styled.div<HeaderBtnBoxProps>`
   width: 100%;
   position: fixed;
@@ -144,7 +155,7 @@ const HeaderBtnText = styled.text`
 `;
 
 const HeaderLinkBtn = styled.div<HeaderBtnBoxProps>`
-  background: #000;
+  background: white;
   color: white;
   padding: 8px 12px;
   border: none;
@@ -153,7 +164,6 @@ const HeaderLinkBtn = styled.div<HeaderBtnBoxProps>`
   font-weight: 600;
   justify-content: start;
   gap: 16px;
-  cursor: pointer;
   @media screen and (max-width: 600px) {
     display: ${(props) => (props.isToggled ? "flex" : "none")};
     justify-content: start;
@@ -161,10 +171,11 @@ const HeaderLinkBtn = styled.div<HeaderBtnBoxProps>`
   }
 `;
 
-const Sns = styled.text`
+const Sns = styled.a`
   color: #999;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 `;
 
 const Snsdiv = styled.div<HeaderBtnBoxProps>`

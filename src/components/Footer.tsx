@@ -17,16 +17,16 @@ function Footer() {
             서울특별시 용산구 원효로97길 33-4 3호관 2층
           </FooterInfoContent>
           <FooterInfoContent>
-            © 2024. sunrin contents. all rights reserved.
+            <Cite href="https://www.instagram.com/ye_hoon1004/">©</Cite> 2024. sunrin contents. all rights reserved.
           </FooterInfoContent>
         </FooterInfoContentBox>
       </FooterInfoBox>
       <FooterSnsBox>
         시연회
-        <FooterSnsBtn href="https://www.google.com">
+        <FooterSnsBtn href="https://www.instagram.com/sunrin_contents/">
           <InstarIcon />
         </FooterSnsBtn>
-        <FooterSnsBtn href="https://www.google.com">
+        <FooterSnsBtn href="https://www.facebook.com/sunrin.contents">
           <FacebockIcon />
         </FooterSnsBtn>
       </FooterSnsBox>
@@ -37,6 +37,9 @@ function Footer() {
 
 export default Footer;
 
+const Cite = styled.a`
+  
+`
 const FooterContainerMain = styled.div`
   width  : 100%;
   

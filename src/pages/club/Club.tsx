@@ -61,7 +61,7 @@ function Club() {
                                 소속
                             </SubtextTitle>
                             <SubtextContain>
-                                콘텐츠디자인과
+                                {clubInfo?.department}
                             </SubtextContain>
                         </SubContainer>
                         <SubContainer>
@@ -69,7 +69,7 @@ function Club() {
                                 분야
                             </SubtextTitle>
                             <SubtextContain>
-                                만화, 일러스트레이션
+                                {clubInfo?.field}
                             </SubtextContain>
                         </SubContainer>
                         </MobileContain>
@@ -89,7 +89,7 @@ function Club() {
 
                             ))}
                         </SubContainer>
-                        <JoinButton>
+                        <JoinButton href={clubInfo?.joinlink}>
                             <JoinButtonText>
                                 지원하기
                             </JoinButtonText>
@@ -138,7 +138,7 @@ function Club() {
                     {clubInfo?.gallery.map((item, i) => (
                         <MobilePictureBox key={i} onClick={() => handlePictureBoxClick(item.url, item.isVideo)}
                             >
-                            <MobilePictureContent src={item.url} />
+                            <MobilePictureContent src={!item.isVideo ? item.url: item.thumbnail} />
                         </MobilePictureBox>
                     ))}
                 </MobilePictureContainer>
@@ -301,7 +301,7 @@ const SubtextWebsite = styled.text`
     }
 `
 
-const JoinButton = styled.div`
+const JoinButton = styled.a`
     height: 40px;
     width: 100%;
     flex-direction: row;
@@ -328,7 +328,7 @@ const AcheivetitleBox = styled.div`
     display: flex;
     margin-top: 100px;
     padding-top: 14px;
-    padding-bottom: 22px;
+    padding-bottom: 48px;
     width: 100%;
     border-top: 1px solid black;
     justify-content: space-between;
@@ -353,6 +353,7 @@ const SubTitleText = styled.text`
     font-size: 16dp;
     font-style: normal;
     font-weight: 500;
+    line-height: 1.3;
 
 
     @media screen and (max-width: 1080px) {
@@ -514,8 +515,13 @@ const Youtube = styled.iframe`
   border: none;
   border-radius: 8px;
 
-  @media screen and (max-width: 768px) {
-    height: 250px;
+  @media screen and (max-width: 1080px) {
+    height: 300px;
+    width: 500px;
+  }
+  @media screen and (max-width: 600px) {
+    height: 200px;
+    width: 300px;
   }
 `;
 

@@ -45,7 +45,7 @@ const clubInfo: ClubInfo[] = [
                 url: "https://www.instagram.com/tate__official/",
             },
         ],
-        joinlink: "https://sunrinmir.github.io/",
+        joinlink: "https://forms.gle/VZkxrCJmLsTXZgur9",
         awards: [
             {
                 year: "2021",
@@ -212,7 +212,7 @@ const clubInfo: ClubInfo[] = [
                 url: "https://sunrinmir.github.io/",
             }            
         ],
-        joinlink: "https://sunrinmir.github.io/",
+        joinlink: "https://docs.google.com/forms/d/e/1FAIpQLSfoJhtJj_9PDx4MhVQ0-h0WCOGJqWv5NMYnCbw6-jZ_YskFDA/viewform",
         awards: [
             {
                 year: "2022",
@@ -291,7 +291,7 @@ const clubInfo: ClubInfo[] = [
                 url: "https://www.instagram.com/aun0fficial/",
             }     
         ],
-        joinlink: "https://sunrinmir.github.io/",
+        joinlink: "https://forms.gle/sgFspMmEanyAkMa17",
         awards: [
             {
                 year: "2020",
@@ -351,7 +351,7 @@ const clubInfo: ClubInfo[] = [
                 url: "https://vfriends.github.io/",
             }     
         ],
-        joinlink: "https://sunrinmir.github.io/",
+        joinlink: "https://docs.google.com/forms/d/e/1FAIpQLSdpLJQxhZLnpuJQOrwhbaAU5SDDPMx3SzJ15GskYwXMwcJ7xQ/viewform?pli=1",
         awards: [
             {
                 year: "2023",
@@ -543,7 +543,7 @@ const clubInfo: ClubInfo[] = [
         "아닌 게임디자인도 체계적으로 배울 수 있으며 부원들끼리의\n"+
         "협업을 지양하는 동아리입니다.\n",
         department: "소프트웨어과",
-        field: "게임 디자이너",
+        field: "게임 디자인",
         link: [
             {
                 label: "Instagram",
@@ -554,7 +554,7 @@ const clubInfo: ClubInfo[] = [
                 url: "https://creal.kro.kr/",
             },     
         ],
-        joinlink: "https://sunrinmir.github.io/",
+        joinlink: "https://docs.google.com/forms/d/e/1FAIpQLSf9vduaZvxAKPNjT8f5s2S5BMQdqNGMwqqrS5TTjEGuZYWfUQ/viewform",
         awards: [
             {
                 year: "2023",
@@ -649,7 +649,7 @@ const clubInfo: ClubInfo[] = [
         "신념 아래, 우리들의 전공을 활용하여 세상의 간극들을\n"+ 
         "좁혀 나가고자 오늘도 노력하고 있습니다.\n",
         department: "소프트웨어과",
-        field: "앱·웹 UI 디자이너",
+        field: "앱·웹 UI 디자인",
         link: [
             {
                 label: "Instagram",
@@ -663,15 +663,104 @@ const clubInfo: ClubInfo[] = [
         joinlink: "https://tapie.kr/",
         awards: [
             {
+                year: "2020",
+                content: [
+                    "디지털 콘텐츠 개발대회 앱 부문 금상",
+                    "선린 해커톤 생활분야 금상",
+                    "모바일 콘텐츠 개발대회 게임 에셋 부문 대상",
+                    "모바일 콘텐츠 개발대회 생활 디자인 부문 대상",
+                    "모바일 콘텐츠 개발대회 생활 비디자인 부문 대상",
+                    "창업동아리 우수사례 나눔전 금상",
+                    "KBSC 특별상",
+                    "STA-C 가작",
+                    "KAC 고등창업 우수상"
+                ]
+            },{
+                year: "2021",
+                content: [
+                    "디지털 콘텐츠 개발대회 앱 부문 대상",
+                    "선린 해커톤 생활분야 은상",
+                    "선린 해커톤 생활분야 동상",
+                    "모바일 콘텐츠 개발대회 생활 디자인 부문 금상",
+                    "모바일 콘텐츠 개발대회 생활 디자인 부문 은상",
+                    "모바일 콘텐츠 개발대회 생활 디자인 부문 동상",
+                    "모바일 콘텐츠 개발대회 생활 디자인 부문 동상",
+                    "모바일 콘텐츠 개발대회 생활 비디자인 부문 동상",
+                    "창업상경진대회 장려상"
+                ]
+            },{
+                year: "2022",
+                content: [
+                    "교내 그래픽 공모전 UIUX 동상",
+                    "교내 디지털콘텐츠개발대회 웹 분야 은상",
+                    "디지털콘텐츠개발대회 동상",
+                    "천코대 금상",
+                    "교내 해커톤 금상",
+                    "교내 해커톤 은상",
+                    "2022 Junior 창업아이템 경진대회 중소벤처기업청장상", 
+                    "국제정보올림피아드 금상",
+                    "마이다스아이티 해커톤 은상",
+                    "앱잼 장려상",
+                    "임베디드 SW 경진대회 우수상",
+                    "2022 한국올림피아드 은상",
+                    "2022 콘텐츠디자인과 영상 공모전 모션그래픽 부문 금상",
+                ]
+            },{
                 year: "2023",
                 content: [
-                    "선린 교내 캐릭터공모전 은상",
+                    "Highthon 우수상",
+                    "숙명여자대학교 AI-X Challenge 최우수상",
+                    "부산국제디자인어워드 동상",
+                    "부산국제마케팅광고제 크리에이티브 캠프 최우수상",
+                    "직업계고 창의아이디어경진대회 동상",
+                    "Smarteen App Challenge 입선",
+                    "교내 디지털콘텐츠개발대회 생활 부문 대상", 
+                    "교내 디지털콘텐츠개발대회 게임 부문 동상",
+                    "NYPC 우승",
+                    "대한민국 인재상",
+                    "AI-X Super Hackathon challenge 최우수상",
+                ]
+            },{
+                year: "2024",
+                content: [
+                    "9th Highthon 마루상(1등)",
+                    "앱잼 생활 및 미래산업 부문 최우수상",
                 ]
             },
         ],
         gallery: [
             {
-                url: "https://postfiles.pstatic.net/MjAyNDAzMDlfMTg3/MDAxNzA5OTkwMzc1NzQ0.dV27uPPi8KoUbPdHqsikIJqj74TRPoQrXyMSGOfh0icg.bhN2Qd3xm4uup337JoFHGR5GS7uZ6xGAtKH58xY6RwUg.PNG/%EB%8F%99%EB%AC%BC_%EC%97%86%EB%8A%94_%EB%8F%99%EB%AC%BC%EC%9B%90_%EC%A0%84_%ED%8F%AC%EC%8A%A4%ED%84%B0.png?type=w773",
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTI2/MDAxNzEwMjg2ODEyNzE3.-a93GSHKfC5-4avOWmb18iIk5dcEQERxfPd8dDykAr0g.X4yl3bUTTpl-ZKrTeTP5kzcHNM_WkUlzIo-OcHNeCUMg.PNG/1_.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTM2/MDAxNzEwMjg2ODEyNzUz.2mNBGiMSBGTowK6POSAgoAS2viT8rv3zxC6Mfl95HWgg.JhxIMNmebPH4o0bX3xWX6PmrHPBb5VUWJi8high8eQEg.PNG/62ab4bc7e7fb9a0c.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfOTMg/MDAxNzEwMjg2ODEyNzMw.MxnCTjXmLdJX2oTCG-lUtzZ0IGxvFItD3qn7stJAx9Ig.am1CGM2RipZaq3s3GT6f_H9w4UOUza0qasdz8G7CtTog.PNG/179ad7af7d40a66a.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTc0/MDAxNzEwMjg2ODEyNzI1.jI2lX38QZ8l4ZHSMQ8Vwg81QoIeP1GhbeRYfo1Gemgcg.LtLM1OtiQmTsaeBo_Mdjl7EwmLwbpzDW0leervqu6V4g.PNG/893a3dda4b9eb7ee.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfNTUg/MDAxNzEwMjg2ODEyNzUy.4YA2s7aldRhBXvK3y_9VCuej7UIw8WcMxK8mJoGbmGsg.9ZKpBpQb_jAjcH5DQlaBzYnyXxFyR5k4SaYdxpu0z0wg.PNG/b052e7f7cbf9f843.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTA5/MDAxNzEwMjg2ODEzMTc3.rDfqoSO2cxqZCgasiNj7upgPnIRnIEbBSMZTVieb_4Eg.1twIhYhysp716P1VYG8fymqpcdutHI-4dusqIWS2z18g.PNG/Clean_House_.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMjQg/MDAxNzEwMjg2ODEyNzMx.sWwJD1899S9XV1VHGgjPR7KaY3vmWrxvH0U43E_3Yxwg.hB7T413Ia4nJPZfYeBf7YdwkESvKktz8Z7B259z7kFQg.PNG/d8155d941f1e1d6f.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTEz/MDAxNzEwMjg2ODEzMzA1.dTKPzYxigmp82088Q3iRoRDni0neW9518WTG8sow-KMg.911HqFAEH7F8Ezi9xhgpfgIZbVUc0CIMOQ1Z2dob_1Ig.PNG/LILAG_.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMTI5/MDAxNzEwMjg2ODEzMjk0.ELObizYXCkxMjLhnA_nVBeh_L-YNCtrWZqrFqTtFl_8g.VCSuDBOh1NXHIAZZjFtNt6YO2_Dy82Qn8ETe2AZuYRog.PNG/LOEDA_.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfNTkg/MDAxNzEwMjg2ODEzMTY4.SOxjVr5oLGOVHahPdqx7bu3ctZshuagGWaYrCJBb-WQg.om9asl5xjuyI02o84iG_HQgAC1ByIi2l0U1HZ_FiHGMg.PNG/MZOY_.png",
+                isVideo: false,
+            },{
+                url: "https://blogfiles.pstatic.net/MjAyNDAzMTNfMjQw/MDAxNzEwMjg2ODEzOTg3.g8nngM9W0rVqxwRJjigwqQnRnIlZwfooFywDyL0Hy8og.qlU3iuFfjcoXMWtNY6Auo4U8t2MHEswdF5NaoZ3tCMkg.PNG/survirun_.png",
                 isVideo: false,
             },
         ]
@@ -697,7 +786,7 @@ const clubInfo: ClubInfo[] = [
                 url: "https://www.instagram.com/junr_official/",
             },     
         ],
-        joinlink: "https://sunrinmir.github.io/",
+        joinlink: "https://docs.google.com/forms/d/e/1FAIpQLSe1kBCrbAvlnfBobCb0T_BmxD4Nsd1V5JN0lFrKiI-SG0V_QA/viewform",
         awards: [
             {
                 year: "2023",
